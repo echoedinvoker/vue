@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/1-start/4-alternatives/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "1. Getting Started",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "4. Exploring Vue Alternatives",
+    "video.length": 3,
+    "time.comsuming": 6,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-22T12:11:02Z",
     "tag": [
-      "vue","start"
+      "vue","start","alternatives","compare","react","angular"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463688#content",
+    "description": "A brief introduction to the two alternatives of Vue, and a comparison of the differences between them."
   }
 
