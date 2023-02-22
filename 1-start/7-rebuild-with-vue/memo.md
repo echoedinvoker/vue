@@ -8,7 +8,7 @@
 
 ![Alt load vue library](pic/03.jpg)
 
-## **Imperative approach to Definition approach**
+## **Imperative approach to Declaration approach**
 
 ![Alt imperative](pic/04.jpg)
 

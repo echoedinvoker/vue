@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/1-start/7-rebuild-with-vue/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "1. Getting Started",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "Re-building the App with Vue",
+    "video.length": 12,
+    "time.comsuming": 67,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-22T22:34:56Z",
     "tag": [
-      "vue","start"
+      "vue","start","rebuild","def","definition","imperative","first","without","cdn"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463708#content",
+    "description": "Use Vue to recreate the previous simple web app, to compare the difference between native JavaScript and Vue."
   }
 
