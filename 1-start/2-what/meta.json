@@ -1,0 +1,18 @@
+{
+    "category-v2.single.toJob": "vue",
+    "git.link": "https://github.com/echoedinvoker/1-start/blob/master/2-what/memo.md",
+    "course": "Vue - The Complete Guide (incl. Router & Composition API)",
+    "chapter": "1. Getting Started",
+    "section": "2. What is 'Vue.js'",
+    "video.length": 8,
+    "time.comsuming": 23,
+    "lecturer.name.first": "Maximilian",
+    "lecturer.name.last": "Schwarzmuller",
+    "register.time": "2023-02-22T11:47:10Z",
+    "tag": [
+      "vue","start","why","what","javascript","response"
+    ],
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463678#content",
+    "description": "Introducing what Vue is and why we use it."
+  }
+
