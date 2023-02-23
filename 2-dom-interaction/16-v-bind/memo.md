@@ -15,3 +15,5 @@
 ## **Vue deractive: v-bind**
 
 ![Alt deractive: v-bind](pic/04.jpg)
+
+- Vue deractive is a instruction that tells Vue to do something.
