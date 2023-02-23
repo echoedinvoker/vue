@@ -1,4 +1,4 @@
-## **Download course resource \* Intro**
+## **Download course resource & Intro**
 
 ![Alt resource intro](pic/01.jpg)
 
