@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/17-methods/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "17. Understanding methods in Vue Apps",
+    "video.length": 6,
+    "time.comsuming": 38,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-24T01:07:01Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","js","html","methods","option","handler"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463140#content",
+    "description": "Intro another important option methods, we put Vue handlers into it."
   }
 
