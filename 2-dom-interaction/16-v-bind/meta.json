@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/16-v-bind/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
+    "section": "16. Binding Attributes with the v-bind Directive",
     "video.length": ,
     "time.comsuming": ,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-23T23:51:43Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","deractive","instruction","v-bind","attribute"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463138#content",
+    "description": "Explains how to bring the values in Vue data into the HTML attribute."
   }
 
