@@ -14,6 +14,8 @@
 
 ![Alt build-in method in {{}}](pic/04.jpg)
 
+### _Only work on JS expression, not statement_
+
 ![Alt statement in {{}}](pic/06.jpg)
 
 - The same concepts as above apply to 'v-bind'.
