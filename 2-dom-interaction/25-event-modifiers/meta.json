@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/25-event-modifiers/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "25. Exploring Event Modifiers",
+    "video.length": 10,
+    "time.comsuming": 60,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-25T04:48:47Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","modifier","event","prevent","click","keyboard","default"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463172#content",
+    "description": "Explain event modifier, and use two common use cases to explain it in depth."
   }
 
