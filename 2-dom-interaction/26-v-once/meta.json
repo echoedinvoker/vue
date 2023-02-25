@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/26-v-once/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "26. Locking Content with v-once",
+    "video.length": 2,
+    "time.comsuming": 15,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-25T05:19:18Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","persistent","once","v-once","init","lock"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463176#content",
+    "description": "Explains how to use v-once to keep the rendered data at its initial value."
   }
 
