@@ -9,3 +9,13 @@
 ![Alt new func with even obj](pic/04.jpg)
 
 - There are a lot of features that native JS has, but of course Vue can use them as well.
+
+## **Add custom argument in this case**
+
+### _Try fail_
+
+[!Alt try](pic/05.jpg)
+
+### _Correct solution_
+
+[!Alt sol](pic/06.jpg)
