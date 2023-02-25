@@ -19,3 +19,5 @@
 ## **Two ways to set function to event listener in HTML**
 
 ![Alt two ways to call](pic/06.jpg)
+
+- Usually in HTML we set the function in 'methods' on the event, instead of the way we introduced before: dynamic calls 'methods' functions in interpolation are less often used.
