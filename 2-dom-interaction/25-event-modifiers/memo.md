@@ -27,3 +27,5 @@
 ![Alt show off when enter](pic/11.jpg)
 
 ![Alt sol](pic/12.jpg)
+
+- The point is that the data 'yourName' originally used to be presented on the page becomes the middle data (not presented on the page).
