@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/3-conditional-content-n-list/40-know-problem/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "3. Rendering Conditional Content & Lists",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "40. Understanding the Problem",
+    "video.length": 3,
+    "time.comsuming": 17,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-26T22:33:16Z",
     "tag": [
-      "vue"
+      "vue","purpose","goal","problem"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463262#content",
+    "description": "Explain what you want to accomplish in the next lecture, and render the web page conditionally."
   }
 
