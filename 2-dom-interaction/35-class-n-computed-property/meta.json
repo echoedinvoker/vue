@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/35-class-n-computed-property/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "35. Classes & Computed Properties",
+    "video.length": 2,
+    "time.comsuming": 22,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-26T08:04:03Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","computed","complex","html","logic","css","style"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463218#content",
+    "description": "Compare the difference between writing the logic of CSS class selection in HTML and 'computed' functions."
   }
 
