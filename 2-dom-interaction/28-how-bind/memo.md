@@ -25,3 +25,5 @@
 ### _Testing result_
 
 ![Alt test](pic/06.jpg)
+
+> In fact, as long as the function is not specified by v-on, other parts such as interpolation, v-bind, v-html ... As the program gets bigger and bigger, it will slow down the performance of the app.
