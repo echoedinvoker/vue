@@ -6,4 +6,6 @@
   - Can make the code more concise
 - But if the logic is more complex, it must be written in 'compute'.
 
+## **Write CSS classes selection in 'computed' functions**
+
 ![Alt move logic into computed](pic/07.jpg)
