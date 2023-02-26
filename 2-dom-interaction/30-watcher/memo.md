@@ -6,6 +6,8 @@
 
 ![Alt watch other property change](pic/02.jpg)
 
+- Note that the function names in 'methods' are also used as property, so 'watch' can use them as well.
+
 ![Alt explain  in page](pic/03.jpg)
 
 ### _fix little problem with native JS concept_
