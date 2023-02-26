@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/32-v-bind-n-v-on-short/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "32. v-bind and v-on Shorthands",
+    "video.length": 2,
+    "time.comsuming": 9,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-26T05:31:40Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","shorthand","syntax","v-on","v-bind"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463206#content",
+    "description": "Introducing the shorthands of v-on and v-bind."
   }
 
