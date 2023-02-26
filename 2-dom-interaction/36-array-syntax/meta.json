@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/2-dom-interaction/36-array-syntax/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "2. Basic & Core Concepts - DOM Interaction with Vue",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "36. Dynamic Classes: Array Syntax",
+    "video.length": 1,
+    "time.comsuming": 10,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-26T08:23:35Z",
     "tag": [
-      "vue","dom"
+      "vue","dom","array","syntax","css","class","style"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463224#content",
+    "description": "intro of array syntax for CSS classes."
   }
 
