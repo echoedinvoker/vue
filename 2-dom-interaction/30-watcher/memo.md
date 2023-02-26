@@ -1,14 +1,20 @@
 ## **Vue option - 'watch'**
 
+> The 'computed' we introduced earlier was the addition of dependency to 'methods', and the 'watch' we introduce next is a further evolution of dependency, focusing more on property changes.
+
 ![Alt intro watch](pic/01.jpg)
 
 ![Alt watch other property change](pic/02.jpg)
 
 ![Alt explain  in page](pic/03.jpg)
 
+### _fix little problem with native JS concept_
+
 ![Alt but problem](pic/04.jpg)
 
 ![Alt add condition logic](pic/05.jpg)
+
+### _value_
 
 ![Alt intro value arg](pic/06.jpg)
 
