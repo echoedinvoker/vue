@@ -8,4 +8,6 @@
 
 ## **Write CSS classes selection in 'computed' functions**
 
+> When logic is complex, better write codes in 'computed' function.
+
 ![Alt move logic into computed](pic/07.jpg)
