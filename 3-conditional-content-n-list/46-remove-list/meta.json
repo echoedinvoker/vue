@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/3-conditional-content-n-list/46-remove-list/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "3. Rendering Conditional Content & Lists",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "46. Removing List Items",
+    "video.length": 5,
+    "time.comsuming": 25,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T03:51:04Z",
     "tag": [
-      "vue"
+      "vue","remove","division","argument","function"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463288#content",
+    "description": "Explains how to implement the function to remove the goal item."
   }
 
