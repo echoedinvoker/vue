@@ -10,6 +10,8 @@
 
 ![Alt first methods func](pic/03.jpg)
 
+- The monster's attack should be stronger than the player, so that the player has a reason to use other actions.
+
 ### _Refactor with global function_
 
 ![Alt refactor with global func](pic/04.jpg)
