@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/3-conditional-content-n-list/42-v-if-else-else-if/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "3. Rendering Conditional Content & Lists",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "42. v-if, v-else and v-else-if",
+    "video.length": 4,
+    "time.comsuming": 27,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T00:21:01Z",
     "tag": [
-      "vue"
+      "vue","condition","v-if","v-else","v-else-if","directive"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463276#content",
+    "description": "Introducing some Vue directives that can put if else logic directly in the HTML."
   }
 
