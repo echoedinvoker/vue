@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/3-conditional-content-n-list/47-list-n-key/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "3. Rendering Conditional Content & Lists",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "47. Lists & Keys",
+    "video.length": 8,
+    "time.comsuming": 44,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T04:43:37Z",
     "tag": [
-      "vue"
+      "vue","event","propagation","stop","modifier","key","identifier","unique","issue"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463290#content",
+    "description": "Describe some of the problems encountered when rendering lists and how to solve them."
   }
 
