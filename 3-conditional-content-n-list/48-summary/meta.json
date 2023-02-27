@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/3-conditional-content-n-list/48-summary/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "3. Rendering Conditional Content & Lists",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "48. Module Summary",
+    "video.length": 2,
+    "time.comsuming": 5,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T05:26:26Z",
     "tag": [
-      "vue"
+      "vue","summary"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463294#content",
+    "description": "Summary of this chapter."
   }
 
