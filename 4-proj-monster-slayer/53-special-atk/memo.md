@@ -14,4 +14,6 @@
 
 ### _move logic to 'computed'_
 
+> to keep HTML lean.
+
 ![Alt move logic to computed](pic/04.jpg)
