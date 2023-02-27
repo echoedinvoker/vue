@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/4-proj-monster-slayer/52-update-health/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "4. Course Project: The Monster Slayer Game",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "52. Updating the Health Bars",
+    "video.length": 7,
+    "time.comsuming": 42,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T07:10:46Z",
     "tag": [
-      "vue", "project", "monster", "slayer"
+      "vue", "project", "monster", "slayer","data","binding","percentage","computed","update","health","width"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463320#content",
+    "description": "explain how to update health bars"
   }
 

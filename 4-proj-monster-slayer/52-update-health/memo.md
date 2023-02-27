@@ -10,6 +10,8 @@
 
 - Usually data binding is last thing to do.
 
+- This is particularly suitable for inline style, because the value of width is constantly changing, and it is impossible to use class to set each width value.
+
 ### _Move HTML logic to Vue 'computed' option_
 
 ![Alt move logic to computed](pic/03.jpg)
