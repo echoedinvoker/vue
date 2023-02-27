@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/4-proj-monster-slayer/53-special-atk/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "4. Course Project: The Monster Slayer Game",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "53. Adding a 'Special Attack'",
+    "video.length": 6,
+    "time.comsuming": 38,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-27T22:00:47Z",
     "tag": [
-      "vue", "project", "monster", "slayer"
+      "vue", "project", "monster", "slayer","special","disabled","round"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463324#content",
+    "description": "Add player special attacks, and give restrictions on their use."
   }
 
