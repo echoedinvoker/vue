@@ -19,3 +19,7 @@
 ### _Call 'methods' function in 'methods' function_
 
 ![Alt call 'methods' func in func](pic/05.jpg)
+
+## **Conclusion**
+
+- So when implementing a Vue app, don't think about binding first, whether it's data binding or event binding, you should start with data and data handling first to avoid confusion.
