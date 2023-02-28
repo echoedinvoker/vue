@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/5-behind-the-scenes/64-refs/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "5. Vue: Behind the Scenes",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "64. Working with Refs",
+    "video.length": 5,
+    "time.comsuming": 34,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T05:59:43Z",
     "tag": [
-      "vue", "behind"
+      "vue", "behind","ref","refer","keystroke","overkill"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463384#content",
+    "description": "Introduction of Refs, better way to save input value."
   }
 

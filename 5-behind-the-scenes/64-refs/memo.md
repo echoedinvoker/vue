@@ -13,3 +13,5 @@
 ![Alt what is refs pointing to?](pic/09.jpg)
 
 - $refs refers to the DOM element in native JS, so as long as this DOM element has properties, you can access them all.
+
+- In fact, any element in the template can use attribute 'ref' to set the identifier, and you can refer to that DOM element anywhere in the Vue app.
