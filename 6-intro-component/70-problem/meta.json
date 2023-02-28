@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/6-intro-component/70-problem/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "6. Introducing Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "70. Understand the Problem",
+    "video.length": 9,
+    "time.comsuming": 58,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T21:22:02Z",
     "tag": [
-      "vue", "component"
+      "vue", "component", "convert","practice","problem","list","methods"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463404#content",
+    "description": "Describe the problems we encounter when rendering list data."
   }
 
