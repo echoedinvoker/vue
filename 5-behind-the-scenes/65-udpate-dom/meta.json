@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/5-behind-the-scenes/65-udpate-dom/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "5. Vue: Behind the Scenes",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "65. How Vue Updates the DOM",
+    "video.length": 6,
+    "time.comsuming": 23,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T06:28:45Z",
     "tag": [
-      "vue", "behind"
+      "vue", "behind","concept","virtual","dom","compare","different","re-render","render"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463390#content",
+    "description": "Explains how Vue accurately re-renders the parts of HTML that need to be updated."
   }
 
