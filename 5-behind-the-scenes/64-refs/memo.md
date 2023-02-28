@@ -11,3 +11,5 @@
 ## **What is $refs pointing to?**
 
 ![Alt what is refs pointing to?](pic/09.jpg)
+
+- $refs refers to the DOM element in native JS, so as long as this DOM element has properties, you can access them all.
