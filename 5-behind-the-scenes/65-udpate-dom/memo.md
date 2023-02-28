@@ -8,6 +8,8 @@
 
 ## **Compare between Virtual DOM**
 
+> Vue actually generates something called the Virtual DOM to compare the differences and determine which parts of the browser should be re-rendered.
+
 ![Alt create new virtual dom when properties change](pic/03.jpg)
 
 - Every time the value of a Vue app property changes, a virtual DOM is generated based on current DOM contents.
