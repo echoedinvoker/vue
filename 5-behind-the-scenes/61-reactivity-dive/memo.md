@@ -10,4 +10,6 @@
 
 ![Alt explain proxy of JS](pic/02.jpg)
 
+- Proxy is a special class that uses the concept of setter to generate.
+  - It allows us to track changes in the data it wrap, and change the content of the related data in real time.
 - The actual operation is more complex, but at the heart of it all is the Proxy.
