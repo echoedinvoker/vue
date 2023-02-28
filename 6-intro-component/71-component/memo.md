@@ -16,6 +16,8 @@
 
 ## **Use component in HTML as element**
 
-![Alt use it as custem HTML element](pic/04.jpg)
+![Alt use it as custom HTML element](pic/04.jpg)
 
 - The next course will teach how to use the same component but bring in different data.
+
+- And later we will teach how to define template in a better way instead of string template.

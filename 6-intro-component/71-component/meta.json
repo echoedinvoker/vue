@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/6-intro-component/71-component/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "6. Introducing Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "71. Introducing Components",
+    "video.length": 11,
+    "time.comsuming": 48,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T22:18:13Z",
     "tag": [
-      "vue", "component"
+      "vue", "component","practice"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463406#content",
+    "description": "Actually building a component while solving the problems of the previous lecture."
   }
 
