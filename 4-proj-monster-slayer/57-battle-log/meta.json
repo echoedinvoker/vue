@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/4-proj-monster-slayer/57-battle-log/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "4. Course Project: The Monster Slayer Game",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "57. Adding a Battle Log",
+    "video.length": 14,
+    "time.comsuming": 49,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T01:59:56Z",
     "tag": [
-      "vue", "project", "monster", "slayer"
+      "vue", "project", "monster", "slayer","log","style","v-for","list","object","v-if"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463348#content",
+    "description": "Implementing Battle Logs"
   }
 
