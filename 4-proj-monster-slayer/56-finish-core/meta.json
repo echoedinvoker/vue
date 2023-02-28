@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/4-proj-monster-slayer/56-finish-core/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "4. Course Project: The Monster Slayer Game",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "56. Finishing the Core Functionality",
+    "video.length": 6,
+    "time.comsuming": 42,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T00:17:39Z",
     "tag": [
-      "vue", "project", "monster", "slayer"
+      "vue", "project", "monster", "slayer","surrender","fix","action","v-else","sibling"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463344#content",
+    "description": "Complete the all core functions of the game."
   }
 
