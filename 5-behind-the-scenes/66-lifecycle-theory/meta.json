@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/5-behind-the-scenes/66-lifecycle-theory/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "5. Vue: Behind the Scenes",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "66. Vue App Lifecycle - Theory",
+    "video.length": 5,
+    "time.comsuming": 18,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T06:50:46Z",
     "tag": [
-      "vue", "behind"
+      "vue", "behind","mount","hook","unmount","middleware","lifecycle","create","update"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463392#content",
+    "description": "Explaining all the life cycles a Vue app will go through."
   }
 
