@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/5-behind-the-scenes/63-template/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "5. Vue: Behind the Scenes",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "63. Understanding Templates",
+    "video.length": 4,
+    "time.comsuming": 17,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T05:21:12Z",
     "tag": [
-      "vue", "behind"
+      "vue", "behind","template"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463380#content",
+    "description": "Explain what is template of Vue app and there is another way to define it."
   }
 

@@ -7,3 +7,5 @@
 ![Alt another way to define template](pic/05.jpg)
 
 - But it's not usually defined in Vue apps, because there are syntax hints and various color fonts in HTML to help.
+
+- Our subsequent courses will introduce a better way to write templates and Vue apps.
