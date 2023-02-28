@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/5-behind-the-scenes/67-lifecycle-practice/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "5. Vue: Behind the Scenes",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "67. Vue App Lifecycle - Practice",
+    "video.length": 10,
+    "time.comsuming": 35,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-02-28T11:21:20Z",
     "tag": [
-      "vue", "behind"
+      "vue", "behind","lifecycle","life","practice","breakpoint"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463394#content",
+    "description": "Practically practice the hook methods in Vue app lifecycle with a simple console.log."
   }
 
