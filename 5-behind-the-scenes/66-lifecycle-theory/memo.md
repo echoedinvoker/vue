@@ -1,6 +1,6 @@
 ![Alt](pic/01.jpg)
 
-- Yellow block indicates the event occurred.
+- Yellow block indicates the event occurred. Pink is hook(lifecycle stage, middleware)
 - beforeCreate()
   - before the app is fully initiallized.
 - create()
