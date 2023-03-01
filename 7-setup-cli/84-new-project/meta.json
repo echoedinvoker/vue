@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/7-setup-cli/84-new-project/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "84. A New Vue Project",
+    "video.length": 5,
+    "time.comsuming": 22,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-01T20:43:18Z",
     "tag": [
-      "vue", "cli"
+      "vue", "cli","new","install"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463466#content",
+    "description": "Explains how to install a Vue project provided by someone else."
   }
 
