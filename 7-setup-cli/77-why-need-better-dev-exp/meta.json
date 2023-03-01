@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/7-setup-cli/77-why-need-better-dev-exp/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "77. Why We Want A Better Developer Experience",
+    "video.length": 6,
+    "time.comsuming": 13,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-01T08:49:18Z",
     "tag": [
-      "vue", "cli"
+      "vue", "cli","better","experience","reason","why","cli","tool"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463444#content",
+    "description": "Explain why we need better experience."
   }
 
