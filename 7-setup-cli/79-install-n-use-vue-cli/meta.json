@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/7-setup-cli/79-install-n-use-vue-cli/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "79. Installing & Using the Vue CLI",
+    "video.length": 8,
+    "time.comsuming": 35,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-01T09:33:59Z",
     "tag": [
-      "vue", "cli"
+      "vue", "cli","setup","create","project"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463450#content",
+    "description": "Explains how to install the Vue CLI and use it to initialize a Vue project and launch its web server."
   }
 
