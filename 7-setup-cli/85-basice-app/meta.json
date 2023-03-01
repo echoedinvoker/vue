@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/7-setup-cli/85-basice-app/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "85. Creating a Basic Vue App",
+    "video.length": 10,
+    "time.comsuming": 38,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-01T21:25:22Z",
     "tag": [
-      "vue", "cli"
+      "vue", "cli","basic","script","template","export","import"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463476#content",
+    "description": "Start writing some basic codes for Vue CLI project."
   }
 

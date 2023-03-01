@@ -2,6 +2,11 @@
 
 ![Alt App.vue and script](pic/01.jpg)
 
+### _ES6 JavaScript import/export concept_
+
+- The first import is loaded from the package so just specify the package name, and it's not default so there will be curly brackets.
+- The second import is loaded from our own file App.vue, so we have to specify the path of the file, and it's default, so we can name what we want to load without curly brackets.
+
 ## **template**
 
 ![Alt template](pic/02.jpg)
@@ -14,4 +19,4 @@
 
 ![Alt fix and page empty](pic/04.jpg)
 
-- After adding the 'key', the page did not show what I expected, I will fix this problem later in the course.
+![Alt](pic/05.jpg)

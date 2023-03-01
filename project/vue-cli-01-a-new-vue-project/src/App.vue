@@ -1,11 +1,13 @@
 <template>
   <h3>Friends</h3>
   <ul>
-    <li v-for="friend in friends" :key="friend.id">
+    <!-- <li v-for="friend in friends" :key="friend.id">
       <p><strong>Name:</strong> {{ friend.name }}</p>
       <p><strong>Phone:</strong> {{ friend.phone }}</p>
       <p><strong>Email:</strong> {{ friend.email }}</p>
-    </li>
+    </li> -->
+    <friend-contact></friend-contact>
+    <friend-contact></friend-contact>
   </ul>
 </template>
 
