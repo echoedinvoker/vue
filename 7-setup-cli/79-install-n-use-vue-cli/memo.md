@@ -19,3 +19,7 @@
 ![Alt follow hints](pic/06.jpg)
 
 ![Alt launch web vue app](pic/07.jpg)
+
+- We have to keep the web development server ON during coding Vue apps.
+
+- Use Ctrl+C to close the server only when coding is finished.
