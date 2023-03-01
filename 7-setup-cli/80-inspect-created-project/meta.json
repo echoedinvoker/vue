@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/7-setup-cli/80-inspect-created-project/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "80. Inspecting the Created Project",
+    "video.length": 6,
+    "time.comsuming": 21,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-01T12:22:16Z",
     "tag": [
-      "vue", "cli"
+      "vue", "cli","folder","structure","architecture","src","public"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463454#content",
+    "description": "Explain that the Vue CLI helps us build the initial structure and files of a Vue project."
   }
 
