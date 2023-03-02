@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/8-comp-communicate/92-props/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "8. Component Communication",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "92. Introducing Props (Parent => Child Communication)",
+    "video.length": 10,
+    "time.comsuming": 45,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-02T01:51:46Z",
     "tag": [
-      "vue", "component","communication"
+      "vue", "component","communication","pass","props","name"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463496#content",
+    "description": "Explains how to pass data from the component's parent to the component for use."
   }
 
