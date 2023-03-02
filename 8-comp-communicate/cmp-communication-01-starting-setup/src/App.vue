@@ -4,28 +4,25 @@
       <h1>My Friends</h1>
     </header>
     <ul>
-      <friend-contact
+      <!-- <friend-contact
         friend-name="Manuel Lorenz"
         phone-number="0123 45678 90"
         email-address="manuel@localhost.com"
-        is-favorite="1"
+        :is-favorite="true"
+      ></friend-contact> -->
+      <friend-contact
+        v-for="friend in friends"
+        :key="friend.id"
+        :friend-name="friend.name"
+        :phone-number="friend.phone"
+        :email-address="friend.email"
+        :is-favorite="friend.favorite"
       ></friend-contact>
       <!-- <friend-contact
         friend-name="Julie Jones"
         phone-number="0987 654421 21"
         email-address="julie@localhost.com"
-        is-favorite="0"
       ></friend-contact> -->
-      <!-- <friend-contact
-        phone-number="0987 654421 21"
-        email-address="julie@localhost.com"
-        is-favorite="0"
-      ></friend-contact> -->
-      <friend-contact
-        phone-number="0987 654421 21"
-        email-address="julie@localhost.com"
-        is-favorite="100"
-      ></friend-contact>
     </ul>
   </section>
 </template>
@@ -40,6 +37,7 @@ export default {
           name: "Manuel Lorenz",
           phone: "0123 45678 90",
           email: "manuel@localhost.com",
+          favorite: true,
         },
         {
           id: "julie",

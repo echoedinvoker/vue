@@ -21,3 +21,14 @@
 - We set more 'prop' properties for the purpose of:
   - Making Debugging Easier
   - Let people know at a glance how to use the components you develop.
+
+## **Types**
+
+- String
+- Number
+- Boolean
+- Array
+- Object
+- Date
+- Function
+- Symbol
