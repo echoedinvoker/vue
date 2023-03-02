@@ -44,12 +44,6 @@ export default {
       default: false,
     },
   },
-  // emits: ["toggle-favorite"],
-  emits: {
-    "toggle-favorite": function (id) {
-      // we can do some validate to id here
-    },
-  },
   data() {
     return {
       detailsAreVisible: false,
