@@ -2,7 +2,7 @@
     "category-v2.single.toJob": "vue",
     "git.link": "",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
-    "chapter": "7. Moving to a Better Development Setup & Workflow with the Vue CLI",
+    "chapter": "8. Component Communication",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -10,7 +10,7 @@
     "lecturer.name.last": "Schwarzmuller",
     "register.time": "",
     "tag": [
-      "vue", "cli"
+      "vue", "component","communication"
     ],
     "video.link": "",
     "description": ""
