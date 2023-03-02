@@ -21,7 +21,35 @@
 
 <script>
 export default {
-  props: ["friendName", "phoneNumber", "emailAddress", "isFavorite"],
+  // props: ["friendName", "phoneNumber", "emailAddress", "isFavorite"],
+  // props: {
+  //   friendName: String,
+  //   phoneNumber: String,
+  //   emailAddress: String,
+  //   isFavorite: String
+  // },
+  props: {
+    friendName: {
+      type: String,
+      required: true,
+    },
+    phoneNumber: {
+      type: String,
+      required: true,
+    },
+    emailAddress: {
+      type: String,
+      required: true,
+    },
+    isFavorite: {
+      type: String,
+      require: false,
+      default: "0",
+      validator: function (value) {
+        return value === "1" || value === "0";
+      },
+    },
+  },
   data() {
     return {
       detailsAreVisible: false,
@@ -39,7 +67,6 @@ export default {
       this.detailsAreVisible = !this.detailsAreVisible;
     },
     toggleFavorite() {
-      // this.isFavorite = !this.isFavorite;
       if (this.friendIsFavorite === "0") {
         this.friendIsFavorite = "1";
       } else {

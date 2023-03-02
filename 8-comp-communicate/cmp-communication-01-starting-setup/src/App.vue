@@ -10,11 +10,21 @@
         email-address="manuel@localhost.com"
         is-favorite="1"
       ></friend-contact>
-      <friend-contact
+      <!-- <friend-contact
         friend-name="Julie Jones"
         phone-number="0987 654421 21"
         email-address="julie@localhost.com"
         is-favorite="0"
+      ></friend-contact> -->
+      <!-- <friend-contact
+        phone-number="0987 654421 21"
+        email-address="julie@localhost.com"
+        is-favorite="0"
+      ></friend-contact> -->
+      <friend-contact
+        phone-number="0987 654421 21"
+        email-address="julie@localhost.com"
+        is-favorite="100"
       ></friend-contact>
     </ul>
   </section>
