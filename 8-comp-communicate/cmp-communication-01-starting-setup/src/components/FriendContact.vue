@@ -44,10 +44,15 @@ export default {
       default: false,
     },
   },
+  // emits: ["toggle-favorite"],
+  emits: {
+    "toggle-favorite": function (id) {
+      // we can do some validate to id here
+    },
+  },
   data() {
     return {
       detailsAreVisible: false,
-      // friendIsFavorite: this.isFavorite,
       friend: {
         id: "manuel",
         name: "Manuel Lorenz",
@@ -61,7 +66,6 @@ export default {
       this.detailsAreVisible = !this.detailsAreVisible;
     },
     toggleFavorite() {
-      // this.friendIsFavorite = !this.friendIsFavorite;
       this.$emit("toggle-favorite", this.friendId);
     },
   },
