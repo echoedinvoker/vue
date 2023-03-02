@@ -1,11 +1,11 @@
 <template>
   <li>
-    <!-- <h2>{{ friendName }} {{ friendIsFavorite ? "(Favorite)" : "" }}</h2> -->
     <h2>{{ friendName }} {{ isFavorite ? "(Favorite)" : "" }}</h2>
     <button @click="toggleFavorite">Set Favorite</button>
     <button @click="toggleDetails">
       {{ detailsAreVisible ? "Hide" : "Show" }} Details
     </button>
+    <button @click="$emit('delete-friend', friendId)">Delete</button>
     <ul v-if="detailsAreVisible">
       <li>
         <strong>Phone:</strong>

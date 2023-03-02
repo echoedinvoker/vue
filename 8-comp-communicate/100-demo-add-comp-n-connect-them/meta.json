@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/8-comp-communicate/100-demo-add-comp-n-connect-them/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "8. Component Communication",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "100. Demo: Adding Components & Connecting Them",
+    "video.length": 13,
+    "time.comsuming": 90,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-02T12:41:50Z",
     "tag": [
-      "vue", "component","communication"
+      "vue", "component","communication","component","event","listener","bind","collect"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463540#content",
+    "description": "A demo to practice making a component that adds new data with a form."
   }
 
