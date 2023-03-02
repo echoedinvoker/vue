@@ -11,6 +11,7 @@
 ![Alt props option](pic/06.jpg)
 
 - 'props' means 'properties'.
+  - so just use them as normal property such as data properties or computed properties.
 - attribute is using kabal nomenclature, and props is using camelCase nomenclature, the former and the latter must be related, Vue is **NOT** simply judging the relationship between the two sides according to the order.
   - Because using kapal named variables in scripts or interpolation will occur error.
 
