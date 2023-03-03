@@ -1,41 +1,38 @@
 <template>
   <div>
     <TheHeader />
-    <BadgeList />
-    <user-info
-      :full-name="activeUser.name"
-      :info-text="activeUser.description"
-      :role="activeUser.role"
-    ></user-info>
-    <course-goals #default="slotProps">
-      <!-- <template v-slot:default="slotProps"> -->
-      <h2>{{ slotProps.item }}</h2>
-      <p>{{ slotProps.anotherProp }}</p>
-      <!-- </template> -->
-    </course-goals>
+    <button @click="setSelectComponent('active-course')">active-course</button>
+    <button @click="setSelectComponent('manage-course')">manage-course</button>
+    <!-- <active-course v-if="selectComponent === 'active-course'"></active-course> -->
+    <!-- <manage-course v-if="selectComponent === 'manage-course'"></manage-course> -->
+    <component :is="selectComponent"></component>
   </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
-import BadgeList from "./components/BadgeList.vue";
-import UserInfo from "./components/UserInfo.vue";
-import CourseGoals from "./components/CourseGoals.vue";
+import ActiveCourse from "./components/ActiveCourse.vue";
+import ManageCourse from "./components/ManageCourse.vue";
 export default {
   components: {
     TheHeader,
-    BadgeList,
-    UserInfo,
-    CourseGoals,
+    ActiveCourse,
+    ManageCourse,
   },
   data() {
     return {
+      selectComponent: "active-course",
       activeUser: {
         name: "Maximilian Schwarzmüller",
         description: "Site owner and admin",
         role: "admin",
       },
     };
+  },
+  methods: {
+    setSelectComponent(component) {
+      this.selectComponent = component;
+    },
   },
 };
 </script>
