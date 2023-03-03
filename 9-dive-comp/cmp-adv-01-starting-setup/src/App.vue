@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- <the-header></the-header> -->
-    <!-- <badge-list></badge-list> -->
     <TheHeader />
     <BadgeList />
     <user-info

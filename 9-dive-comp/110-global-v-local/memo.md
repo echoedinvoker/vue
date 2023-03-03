@@ -11,6 +11,9 @@
 
 ![Alt local components](pic/02.jpg)
 
+- We can also load the same local component in different components.
+  - But in such cases, the recommended way is to load it as a global.
+
 ## **Element Naming**
 
 ![Alt name of el](pic/03.jpg)
