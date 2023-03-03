@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/8-comp-communicate/103-provide-inject-to--rescue/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "8. Component Communication",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "103. Provide + Inject To The Rescue",
+    "video.length": 8,
+    "time.comsuming": 46,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-02T23:04:45Z",
     "tag": [
-      "vue", "component","communication"
+      "vue", "component","communication","jump","provide","inject","skip","transfer","deliver"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463566#content",
+    "description": "Explains how to skip some unnecessary data transfer sections with provide/inject."
   }
 
