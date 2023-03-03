@@ -14,3 +14,6 @@
 ## **Element Naming**
 
 ![Alt name of el](pic/03.jpg)
+
+- If you use Kaspal Case, it will be more consistent with the HTML element name, but you must have a close tag.
+- There is no right or wrong, based on personal preference.
