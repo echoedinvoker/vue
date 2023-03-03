@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/120-teleport-el/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "120. Teleporting Elements",
+    "video.length": 4,
+    "time.comsuming": 22,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T22:04:52Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","teleport","semantic","html","nested","root","structure"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526264#content",
+    "description": "Explains how to use Vue's teleport element to achieve better HTML semantics."
   }
 
