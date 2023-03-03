@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/122-vue-style-guide/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "122. The Vue Style Guide",
+    "video.length": 3,
+    "time.comsuming": 17,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T22:38:09Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","rule","guide","name","suggestion"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526278#content",
+    "description": "Introduction of the official naming convention document."
   }
 
