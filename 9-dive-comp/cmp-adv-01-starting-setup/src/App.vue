@@ -3,9 +3,9 @@
     <TheHeader />
     <button @click="setSelectComponent('active-course')">active-course</button>
     <button @click="setSelectComponent('manage-course')">manage-course</button>
-    <!-- <active-course v-if="selectComponent === 'active-course'"></active-course> -->
-    <!-- <manage-course v-if="selectComponent === 'manage-course'"></manage-course> -->
-    <component :is="selectComponent"></component>
+    <keep-alive>
+      <component :is="selectComponent"></component>
+    </keep-alive>
   </div>
 </template>
 

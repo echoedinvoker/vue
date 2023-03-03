@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/117-dynamic-comp/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "117. Dynamic Component",
+    "video.length": 7,
+    "time.comsuming": 49,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T12:27:41Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","dynamic","cycle","toggle","is"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526232#content",
+    "description": "Introducing the dynamic component."
   }
 
