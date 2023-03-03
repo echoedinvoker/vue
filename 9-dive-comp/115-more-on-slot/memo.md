@@ -12,8 +12,14 @@
 
 ## **$slot**
 
+> This is a built-in property that holds information about the slot.
+
 ![Alt $slot](pic/05.jpg)
 
+### _focus on specific slot_
+
 ![Alt specify slot](pic/06.jpg)
+
+### _use result of $slot to dynamic render template_
 
 ![Alt v-if](pic/07.jpg)
