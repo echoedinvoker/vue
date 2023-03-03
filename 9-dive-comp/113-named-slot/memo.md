@@ -14,4 +14,4 @@
 
 ![Alt v-slot:default](pic/04.jpg)
 
-- We can also write codes that specify the default slot, which can increase readability.
+- We can also write codes that specify the default slot, which can increase readability and not mandatory.
