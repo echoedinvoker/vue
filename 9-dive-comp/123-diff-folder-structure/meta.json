@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/123-diff-folder-structure/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "123. Moving to a Different Folder Structure",
+    "video.length": 3,
+    "time.comsuming": 14,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T22:55:04Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","file","structure","category","base"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526284#content",
+    "description": "Explains how to manage more components efficiently."
   }
 
