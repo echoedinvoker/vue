@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/119-apply-prob/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "119. Applying What We Know & A Problem",
+    "video.length": 9,
+    "time.comsuming": 42,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T21:35:32Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","alert","styling"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526252#content",
+    "description": "Explain how to create a custom styling alert."
   }
 

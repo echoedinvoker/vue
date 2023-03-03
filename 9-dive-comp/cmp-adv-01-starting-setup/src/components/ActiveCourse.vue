@@ -2,10 +2,12 @@
   <h2>Active Course</h2>
   <input type="text" ref="goal" />
   <button @click="setGoal">Set Goal</button>
-  <error-alert v-if="inputIsInvalid">
-    <h2>Input Invalid!</h2>
-    <p>You should input a character at least...</p>
-  </error-alert>
+  <teleport to="body">
+    <error-alert v-if="inputIsInvalid">
+      <h2>Input Invalid!</h2>
+      <p>You should input a character at least...</p>
+    </error-alert>
+  </teleport>
 </template>
 
 <script>
@@ -22,7 +24,6 @@ export default {
   methods: {
     setGoal() {
       if (!this.$refs.goal.value) {
-        // alert("Input should not be empty");
         this.inputIsInvalid = true;
       }
     },
