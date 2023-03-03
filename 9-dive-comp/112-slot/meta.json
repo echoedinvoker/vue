@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/9-dive-comp/112-slot/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "9. Diving Deeper Into Components",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "112. Introducing Slots",
+    "video.length": 6,
+    "time.comsuming": 40,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T03:48:39Z",
     "tag": [
-      "vue", "component","dive"
+      "vue", "component","dive","slot","style"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526198#content",
+    "description": "Introducin Slots, which can save your codes of styling."
   }
 
