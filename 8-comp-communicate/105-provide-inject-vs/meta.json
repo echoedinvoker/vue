@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/8-comp-communicate/105-provide-inject-vs/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "8. Component Communication",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "105. Provide + Inject vs Props & Custom Events",
+    "video.length": 2,
+    "time.comsuming": 12,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T01:13:36Z",
     "tag": [
-      "vue", "component","communication"
+      "vue", "component","communication","concept","versus","readable"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463578#content",
+    "description": "Explain when to use provide/inject and when to use props/custom event."
   }
 
