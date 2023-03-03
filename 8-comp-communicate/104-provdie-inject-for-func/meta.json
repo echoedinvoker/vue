@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/8-comp-communicate/104-provdie-inject-for-func/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "8. Component Communication",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "140. Provide + Inject for Functions / Methods",
+    "video.length": 4,
+    "time.comsuming": 25,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-03T00:57:56Z",
     "tag": [
-      "vue", "component","communication"
-    ],
-    "video.link": "",
-    "description": ""
+      "vue", "component","communication","provide","inject","function","method","methods","handler"
+   ],
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463572#content",
+    "description": "Use provide/inject instead of propogation for event in multi-layer components."
   }
 
