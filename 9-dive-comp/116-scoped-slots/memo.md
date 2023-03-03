@@ -10,7 +10,7 @@
 
 ![Alt custom things on page](pic/04.jpg)
 
-## **Can we modify/use data of component itself when using it?**
+## **Can we modify/use data belonged to component when using it?**
 
 ### _question_
 
