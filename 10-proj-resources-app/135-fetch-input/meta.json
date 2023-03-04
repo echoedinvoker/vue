@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/10-proj-resources-app/135-fetch-input/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "10. Course Project: The Learning Resources App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "135. Fectching User Input",
+    "video.length": 8,
+    "time.comsuming": 34,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T09:04:12Z",
     "tag": [
-      "vue", "project"
+      "vue", "project","ref","difference","form","fetch","input"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526348#content",
+    "description": "Use ref to submit the data collected by the form to update the data source."
   }
 
