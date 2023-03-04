@@ -1,4 +1,4 @@
-## **Ref: Set Ref to Each Input**
+## **Ref Way: Set Ref to Each Input**
 
 > The lecturer uses 'ref' to complete the logical part of the form.
 
