@@ -8,6 +8,8 @@
 
 ![Alt directly collect input values in method](pic/02.jpg)
 
+- In fact, it is possible to use only one method 'addResource' in @submit, but with the $ref arguments it'll become very ugly codes.
+
 ![Alt bind event to another method](pic/03.jpg)
 
 ## **Test**
