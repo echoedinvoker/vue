@@ -1,8 +1,14 @@
 ## **Build Template of AddResource (Form)**
 
+### _template and fallthrough_
+
 ![Alt create template of AddResource & fallthrough](pic/01.jpg)
 
+### _styling_
+
 ![Alt styling](pic/02.jpg)
+
+### _page result but no functionality now_
 
 ![Alt page result but no functionality](pic/03.jpg)
 
