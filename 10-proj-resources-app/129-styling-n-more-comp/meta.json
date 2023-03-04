@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/10-proj-resources-app/129-styling-n-more-comp/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "10. Course Project: The Learning Resources App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "129. Styling and More Components",
+    "video.length": 7,
+    "time.comsuming": 52,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T03:43:20Z",
     "tag": [
-      "vue", "project"
+      "vue", "project","move","transfer","style","ul","scoped"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526324#content",
+    "description": "To keep App.vue's style app-wide only, we create a new component that handles scoped style."
   }
 
