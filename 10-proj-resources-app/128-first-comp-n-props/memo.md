@@ -6,6 +6,8 @@
 
 ## **Build Frame in template**
 
+> Before we have the data, we can pre-design the HTML framework in the template.
+
 ![Alt frame in template](pic/02.jpg)
 
 ## **Define props and fillin data to template**
@@ -19,3 +21,5 @@
 ## **Result on page**
 
 ![Alt result on page](pic/05.jpg)
+
+- It must not look good because there is no style, but the point of this stage is that it can work.
