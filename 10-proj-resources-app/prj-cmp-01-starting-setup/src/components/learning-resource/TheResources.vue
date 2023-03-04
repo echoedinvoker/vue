@@ -1,11 +1,25 @@
 <template>
   <base-card>
-    <base-button @click="selectedTab('add-resource')">Add Resource</base-button>
-    <base-button @click="selectedTab('store-resources')"
+    <!-- <base-button
+      @click="setSelectedTab('add-resource')"
+      :mode="selectedTab === 'add-resource' ? null : 'flat'"
+      >Add Resource</base-button
+    >
+    <base-button
+      @click="setSelectedTab('store-resources')"
+      :mode="selectedTab === 'store-resources' ? null : 'flat'"
+      >Stored Resources</base-button
+    > -->
+    <base-button @click="setSelectedTab('add-resource')" :mode="selectAddRes"
+      >Add Resource</base-button
+    >
+    <base-button
+      @click="setSelectedTab('store-resources')"
+      :mode="selectStoreRes"
       >Stored Resources</base-button
     >
   </base-card>
-  <component :is="selectedTab" :resources="resources"></component>
+  <component :is="selectedTab"></component>
 </template>
 
 <script>
@@ -21,7 +35,34 @@ export default {
   data() {
     return {
       selectedTab: 'store-resources',
+      storedResources: [
+        {
+          id: 'official-guide',
+          title: 'Official Guide',
+          description: 'The official Vue.js documentation.',
+          link: 'https://vuejs.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.com',
+        },
+      ],
     };
+  },
+  provide() {
+    return {
+      resources: this.storedResources,
+    };
+  },
+  computed: {
+    selectAddRes() {
+      return this.selectedTab === 'add-resource' ? null : 'flat';
+    },
+    selectStoreRes() {
+      return this.selectedTab === 'store-resources' ? null : 'flat';
+    },
   },
   methods: {
     setSelectedTab(tab) {
