@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/10-proj-resources-app/131-base-btn/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "10. Course Project: The Learning Resources App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "131. Adding a Base Button",
+    "video.length": 5,
+    "time.comsuming": 21,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T05:02:58Z",
     "tag": [
-      "vue", "project"
+      "vue", "project","button","mode","style","props"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526330#content",
+    "description": "Describe how to design a button styling component with multiple styles for the parent to choose from."
   }
 

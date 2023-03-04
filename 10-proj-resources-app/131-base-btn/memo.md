@@ -10,6 +10,8 @@
 
 ![Alt define props to switch style](pic/09.jpg)
 
+- We defined some props of BaseButton to let parent can configure it with these props.
+
 ![Alt result](pic/10.jpg)
 
 - This is a very powerful feature that requires only one person to design all button styling in one component, but also the ability to switch between different styles, so that it is enough for all team members to use, without the need to make many kinds of button components.
