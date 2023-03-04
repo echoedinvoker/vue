@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/10-proj-resources-app/134-add-form/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "10. Course Project: The Learning Resources App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "134. Adding a Form",
+    "video.length": 4,
+    "time.comsuming": 58,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T08:16:45Z",
     "tag": [
-      "vue", "project"
+      "vue", "project","form","challenge","provide","inject","fallthrough","submit"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526346#content",
+    "description": "Make the template of the AddResource form, the second half is a challenge for myself to make the logical part."
   }
 

@@ -1,23 +1,32 @@
 <template>
   <!-- <h2>Add Resource</h2> -->
   <base-card>
-    <form @submit.prevent="addResource(title, description, link)">
+    <!-- <form @submit.prevent="addResource(title, description, link)"> -->
+    <form @submit.prevent="callAddResource()">
       <div class="form-control">
         <label for="title">Title</label>
-        <input id="title" name="title" type="text" v-model="title" />
+        <!-- <input id="title" name="title" type="text" v-model="title" /> -->
+        <input id="title" name="title" type="text" ref="title" />
       </div>
       <div class="form-control">
         <label for="description">Description</label>
-        <textarea
+        <!-- <textarea
           id="description"
           name="description"
           row="3"
           v-model="description"
+        ></textarea> -->
+        <textarea
+          id="description"
+          name="description"
+          row="3"
+          ref="description"
         ></textarea>
       </div>
       <div class="form-control">
         <label for="link">Link</label>
-        <input id="link" name="link" type="url" v-model="link" />
+        <!-- <input id="link" name="link" type="url" v-model="link" /> -->
+        <input id="link" name="link" type="url" ref="link" />
       </div>
       <base-button type="submit">Add Resource</base-button>
     </form>
@@ -26,14 +35,23 @@
 
 <script>
 export default {
-  data() {
-    return {
-      title: '',
-      description: '',
-      link: '',
-    };
-  },
+  // data() {
+  //   return {
+  //     title: '',
+  //     description: '',
+  //     link: '',
+  //   };
+  // },
   inject: ['addResource'],
+  methods: {
+    callAddResource() {
+      const title = this.$refs.title.value;
+      const description = this.$refs.description.value;
+      const link = this.$refs.link.value;
+
+      this.addResource(title, description, link);
+    },
+  },
 };
 </script>
 

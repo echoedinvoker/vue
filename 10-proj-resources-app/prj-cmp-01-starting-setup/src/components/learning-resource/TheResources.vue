@@ -63,11 +63,13 @@ export default {
     },
     addResource(title, description, link) {
       this.storedResources.push({
-        id: title.toLowerCase().trim().replace(' ', '-'),
+        // id: title.toLowerCase().trim().replace(' ', '-'),
+        id: new Date().toISOString(),
         title,
         description,
         link,
       });
+      this.selectedTab = 'store-resources';
     },
   },
 };
