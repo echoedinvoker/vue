@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/10-proj-resources-app/136-modal-dialog/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "10. Course Project: The Learning Resources App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "136. Adding a Modal Dialog",
+    "video.length": 12,
+    "time.comsuming": 83,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T13:10:58Z",
     "tag": [
-      "vue", "project"
+      "vue", "project","button","dialog","alert","error","flexible","ui","event","valid","close"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526352#content",
+    "description": "Explains how to use component instead of default alert and use it to check if the user input has empty."
   }
 
