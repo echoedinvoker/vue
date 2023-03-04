@@ -12,6 +12,8 @@
 
 ![Alt page result but no functionality](pic/03.jpg)
 
+# **_The following content is a challenge_**
+
 ## **Data binding (Collecting Input data)**
 
 ![Alt data binding](pic/04.jpg)
