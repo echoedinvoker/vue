@@ -16,4 +16,6 @@
 
 ![Alt interate component and props needed data](pic/04.jpg)
 
+## **Result on page**
+
 ![Alt result on page](pic/05.jpg)
