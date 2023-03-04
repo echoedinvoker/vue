@@ -1,4 +1,4 @@
-## **Using provide/injec to skip dynamic component**
+## **Using provide/inject to skip dynamic component**
 
 ![Alt use provide/inject to skip dynamic component](pic/01.jpg)
 
