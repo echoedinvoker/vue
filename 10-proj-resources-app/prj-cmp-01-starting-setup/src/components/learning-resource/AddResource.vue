@@ -1,21 +1,27 @@
 <template>
-  <!-- <h2>Add Resource</h2> -->
+  <base-dialog
+    v-if="inputIsInvalid"
+    title="Invalid Input"
+    @close="confirmError"
+  >
+    <template #default>
+      <p>Unfortunately, at least one input value is invalid.</p>
+      <p>
+        Please check all inputs and make sure you enter at least one character.
+      </p>
+    </template>
+    <template #actions>
+      <base-button @click="confirmError">Okay</base-button>
+    </template>
+  </base-dialog>
   <base-card>
-    <!-- <form @submit.prevent="addResource(title, description, link)"> -->
     <form @submit.prevent="callAddResource()">
       <div class="form-control">
         <label for="title">Title</label>
-        <!-- <input id="title" name="title" type="text" v-model="title" /> -->
         <input id="title" name="title" type="text" ref="title" />
       </div>
       <div class="form-control">
         <label for="description">Description</label>
-        <!-- <textarea
-          id="description"
-          name="description"
-          row="3"
-          v-model="description"
-        ></textarea> -->
         <textarea
           id="description"
           name="description"
@@ -25,7 +31,6 @@
       </div>
       <div class="form-control">
         <label for="link">Link</label>
-        <!-- <input id="link" name="link" type="url" v-model="link" /> -->
         <input id="link" name="link" type="url" ref="link" />
       </div>
       <base-button type="submit">Add Resource</base-button>
@@ -35,13 +40,11 @@
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     title: '',
-  //     description: '',
-  //     link: '',
-  //   };
-  // },
+  data() {
+    return {
+      inputIsInvalid: false,
+    };
+  },
   inject: ['addResource'],
   methods: {
     callAddResource() {
@@ -49,7 +52,20 @@ export default {
       const description = this.$refs.description.value;
       const link = this.$refs.link.value;
 
+      if (
+        title.trim() === '' ||
+        description.trim() === '' ||
+        link.trim() === ''
+      ) {
+        // alert('Please input at least some characters...');
+        this.inputIsInvalid = true;
+        return;
+      }
+
       this.addResource(title, description, link);
+    },
+    confirmError() {
+      this.inputIsInvalid = false;
     },
   },
 };
