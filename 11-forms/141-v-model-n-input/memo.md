@@ -1,4 +1,4 @@
-## **Download anc Check**
+## **Download and Check**
 
 ![Alt dl and check](pic/01.jpg)
 
