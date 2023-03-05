@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/11-forms/141-v-model-n-input/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "11. Forms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "141. v-model & Inputs",
+    "video.length": 6,
+    "time.comsuming": 46,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-04T23:09:42Z",
     "tag": [
-      "vue", "form"
+      "vue", "form","v-model","submit","bind","data"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526376#content",
+    "description": "Explain the two-way binding of v-model and explain the submission of the form."
   }
 
