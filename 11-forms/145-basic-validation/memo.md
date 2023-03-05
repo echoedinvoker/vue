@@ -19,3 +19,6 @@
 ![Alt styling](pic/06.jpg)
 
 ![Alt result](pic/07.jpg)
+
+- We just need to deal with the conditions for the class to appear, and then we simply write the class style.
+  - This type of operation allows for easy division of labor.
