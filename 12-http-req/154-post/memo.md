@@ -8,6 +8,8 @@
 
 ![Alt comment out related codes](pic/03.jpg)
 
+- In some cases, we may need to store data in both the database and local, but not this case.
+
 ## **Test**
 
 ![Alt test fillin form and submit](pic/04.jpg)
