@@ -1,12 +1,12 @@
 <template>
   <ul>
-    <li :class="{ active: selectedOption === 'poor' }">
+    <li :class="{ active: modelValue === 'poor' }">
       <button type="button" @click="activateOption('poor')">Poor</button>
     </li>
-    <li :class="{ active: selectedOption === 'average' }">
+    <li :class="{ active: modelValue === 'average' }">
       <button type="button" @click="activateOption('average')">Average</button>
     </li>
-    <li :class="{ active: selectedOption === 'great' }">
+    <li :class="{ active: modelValue === 'great' }">
       <button type="button" @click="activateOption('great')">Great</button>
     </li>
   </ul>
@@ -14,14 +14,10 @@
 
 <script>
 export default {
-  data() {
-    return {
-      selectedOption: null,
-    };
-  },
+  props: ['modelValue'],
   methods: {
     activateOption(option) {
-      this.selectedOption = option;
+      this.$emit('update:modelValue', option);
     },
   },
 };

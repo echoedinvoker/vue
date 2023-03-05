@@ -95,7 +95,11 @@
       </div>
     </div>
     <div>
-      <rating-control></rating-control>
+      <rating-control v-model="rating"></rating-control>
+      <!-- <rating-control
+        @update:modelValue=""
+        :modelValue="rating"
+      ></rating-control> -->
     </div>
     <div>
       <input
@@ -126,6 +130,7 @@ export default {
       how: null,
       confirmTerms: false,
       userNameValidity: 'pending',
+      rating: null,
     };
   },
   methods: {
@@ -142,6 +147,8 @@ export default {
       this.how = null;
       console.log(this.confirmTerms);
       this.confirmTerms = false;
+      console.log(this.rating);
+      this.rating = null;
     },
     validateUsernameInput() {
       if (this.userName === '') {

@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/11-forms/146-custom-control-comp/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "11. Forms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "146. Building a Custom Control Component",
+    "video.length": 6,
+    "time.comsuming": 60,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-05T04:14:21Z",
     "tag": [
-      "vue", "form"
+      "vue", "form","style","component","custom","control","button","dynamic","class"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526414#content",
+    "description": "This section describes how to use components to create custom options to be used in a form."
   }
 
