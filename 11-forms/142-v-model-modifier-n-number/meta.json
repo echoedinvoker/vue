@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/11-forms/142-v-model-modifier-n-number/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "11. Forms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "142. Working with v-model Modifiers and Numbers",
+    "video.length": 7,
+    "time.comsuming": 36,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-05T00:47:17Z",
     "tag": [
-      "vue", "form"
+      "vue", "form","type","number","string","modifier"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526384#content",
+    "description": "Explains the difference between Ref and v-model processing when entering values from a table."
   }
 
