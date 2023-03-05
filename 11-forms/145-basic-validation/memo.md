@@ -22,3 +22,5 @@
 
 - We just need to deal with the conditions for the class to appear, and then we simply write the class style.
   - This type of operation allows for easy division of labor.
+
+- You can also use dialog component to show off validation fail.

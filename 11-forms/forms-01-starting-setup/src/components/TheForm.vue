@@ -95,6 +95,9 @@
       </div>
     </div>
     <div>
+      <rating-control></rating-control>
+    </div>
+    <div>
       <input
         id="confirm-terms"
         name="confirm-terms"
@@ -110,7 +113,10 @@
 </template>
 
 <script>
+import RatingControl from './RatingControl.vue';
+
 export default {
+  components: { RatingControl },
   data() {
     return {
       userName: '',
