@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/11-forms/147-v-model-on-it/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "11. Forms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "147. Using v-model on Custom Components",
+    "video.length": 7,
+    "time.comsuming": 53,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-05T05:41:46Z",
     "tag": [
-      "vue", "form"
+      "vue", "form","v-model","custom","component","special","event","emit","props","state"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526418#content",
+    "description": "Can we use the v-model directly on the custom component?"
   }
 
