@@ -2,6 +2,8 @@
 
 ![Alt type=number](pic/01.jpg)
 
+### _Using reft to test it_
+
 ![Alt ref test](pic/02.jpg)
 
 ## **v-model**
