@@ -1,8 +1,14 @@
 ## **Checkbox and Radiobox**
 
+### _template_
+
 ![Alt checkbox and radiobox](pic/01.jpg)
 
+### _state and method_
+
 ![Alt set data and method](pic/02.jpg)
+
+### _data binding with v-model_
 
 ![Alt v-model binding](pic/03.jpg)
 
