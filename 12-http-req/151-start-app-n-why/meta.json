@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/12-http-req/151-start-app-n-why/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "12. Sending Http Requests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "151. Starting App & Why we need a Backend",
+    "video.length": 5,
+    "time.comsuming": 25,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-05T06:39:10Z",
     "tag": [
-      "vue", "http","request"
+      "vue", "http","request","start","why","backend"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526464#content",
+    "description": "Start a new chapter of the project and explain why you need the backend."
   }
 
