@@ -4,6 +4,8 @@
 
 ![Alt specialized event and props for component](pic/17.jpg)
 
+- So the answer is Yes, but the custom component needs to be adjusted for specialized events/props.
+
 ## **Add Specialized props and emit event in the child component**
 
 ![Alt add props and emit specialized event in child](pic/18.jpg)
@@ -21,3 +23,5 @@
 ![Alt keep state only in parent](pic/22.jpg)
 
 ![Alt same result but](pic/23.jpg)
+
+- It is better to add the option 'emits', although only the document functionality but it is a good habit.
