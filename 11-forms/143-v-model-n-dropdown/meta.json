@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/11-forms/143-v-model-n-dropdown/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "11. Forms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "143. v-model and Dropdowns",
+    "video.length": 2,
+    "time.comsuming": 16,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-05T01:12:16Z",
     "tag": [
-      "vue", "form"
+      "vue", "form","dropdown","select","v-model"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526388#content",
+    "description": "Use v-model to handle dropdown."
   }
 
