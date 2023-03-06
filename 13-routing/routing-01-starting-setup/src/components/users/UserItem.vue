@@ -1,4 +1,5 @@
 <template>
+  <button @click="confirm">Confirm</button>
   <li>
     <h3>{{ name }}</h3>
     <div class="role" :class="roleClass">{{ role }}</div>
@@ -17,6 +18,12 @@ export default {
         return 'role--consultant';
       }
       return null;
+    },
+  },
+  methods: {
+    confirm() {
+      // do something
+      this.$router.push('/teams');
     },
   },
 };
