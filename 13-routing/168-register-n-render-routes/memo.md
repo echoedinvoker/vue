@@ -8,6 +8,8 @@
 
 ## **RouterView**
 
+> RouterView is an HTML special element provided by Vue-router package, it is also a dynamic render component but the concept is different from dynamic component.
+
 ![Alt don't need register locally or globally](pic/03.jpg)
 
 ## **Page Test**
