@@ -1,5 +1,7 @@
 ## **Implement Error Msg for technical error on Form component**
 
+> This section is almost exactly the same as the previous lecture.
+
 ![Alt require error message of technical error on form component](pic/01.jpg)
 
 ![Alt set error message for technical err](pic/02.jpg)
