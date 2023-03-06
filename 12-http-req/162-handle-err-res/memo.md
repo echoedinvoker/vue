@@ -24,6 +24,8 @@
 
 ![Alt throw error on my own](pic/06.jpg)
 
+- The point is that we can use 'response.ok' to know if there is any error on the server side, so that we can do the following process.
+
 ### _Result test_
 
 ![Alt result](pic/07.jpg)
