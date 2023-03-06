@@ -14,6 +14,8 @@
 
 ## **Page Test**
 
+> Already successfully used router to do dynamic switching components, but other issues arise...
+
 ![Alt no path no render](pic/04.jpg)
 
 ![Alt teams](pic/05.jpg)
