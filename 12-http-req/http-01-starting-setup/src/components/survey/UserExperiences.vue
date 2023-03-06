@@ -36,12 +36,10 @@ export default {
       fetch(
         'https://vue-http-demo-cd7a0-default-rtdb.firebaseio.com/survey.json'
       )
-        // .then(function (response) {
         .then((response) => {
           if (!response.ok) return;
           return response.json();
         })
-        // .then(function (data) {
         .then((data) => {
           const results = [];
           for (const id in data) {
@@ -54,6 +52,9 @@ export default {
           this.results = results;
         });
     },
+  },
+  mounted() {
+    this.loadExperiences();
   },
 };
 </script>
