@@ -24,4 +24,6 @@
 
 ## **Further simplize our conditional rendering script**
 
+> This part is not related to the error message, it is just to make some adjustments to the conditional rendering part to make the codes more concise.
+
 ![Alt further optimize codes](pic/08.jpg)
