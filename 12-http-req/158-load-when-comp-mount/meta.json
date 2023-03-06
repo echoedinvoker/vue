@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/12-http-req/158-load-when-comp-mount/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "12. Sending Http Requests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "158. Loading Data When a Component Mounts",
+    "video.length": 2,
+    "time.comsuming": 15,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-06T00:50:48Z",
     "tag": [
-      "vue", "http","request"
+      "vue", "http","request","mount","lifecycle","reload"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526482#content",
+    "description": "Explains how to automatically fetch data and present it when the component is mounted."
   }
 
