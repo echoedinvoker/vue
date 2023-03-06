@@ -2,6 +2,8 @@
 
 ![Alt install router](pic/01.jpg)
 
+- This is the official package created by Vue team.
+
 ## **Create Router**
 
 ![Alt create router](pic/02.jpg)
