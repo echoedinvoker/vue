@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/12-http-req/161-handle-techinal-browser-side-error/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "12. Sending Http Requests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "161. Handling Technical / Browser-side Errors",
+    "video.length": 7,
+    "time.comsuming": 42,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-06T02:34:18Z",
     "tag": [
-      "vue", "http","request"
+      "vue", "http","request","error","fetch","catch","conditional","v-if"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526496#content",
+    "description": "Explains how to use Vue to notify users of fetch errors."
   }
 

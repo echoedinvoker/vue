@@ -12,7 +12,6 @@
       <p v-else-if="!isLoading && (!results || results.length === 0)">
         No stored experiences found.
       </p>
-      <!-- <ul v-else-if="!isLoading && results && results.length > 0"> -->
       <ul v-else>
         <survey-result
           v-for="result in results"
@@ -21,9 +20,6 @@
           :rating="result.rating"
         ></survey-result>
       </ul>
-      <!-- <p v-else-if="!isLoading && (!results || results.length === 0)">
-        No stored experiences found.
-      </p> -->
     </base-card>
   </section>
 </template>

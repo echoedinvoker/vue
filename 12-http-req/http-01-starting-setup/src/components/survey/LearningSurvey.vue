@@ -45,6 +45,7 @@
           <base-button>Submit</base-button>
         </div>
       </form>
+      <p v-if="error">{{ error }}</p>
     </base-card>
   </section>
 </template>
@@ -56,10 +57,12 @@ export default {
       enteredName: '',
       chosenRating: null,
       invalidInput: false,
+      error: null,
     };
   },
   methods: {
     submitSurvey() {
+      this.error = null;
       if (this.enteredName === '' || !this.chosenRating) {
         this.invalidInput = true;
         return;
@@ -73,12 +76,22 @@ export default {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
+          // body: JSON.stringify({
+          body: {
             userName: this.enteredName,
             rating: this.chosenRating,
-          }),
+          },
         }
-      );
+      )
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Could not save data!');
+          }
+        })
+        .catch((error) => {
+          // this.error = 'Failed to store data - please try again later';
+          this.error = error.message;
+        });
 
       this.enteredName = '';
       this.chosenRating = null;
