@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/12-http-req/157-get/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "12. Sending Http Requests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "157. Getting Data (GET Request) & Transforming Response Data",
+    "video.length": 10,
+    "time.comsuming": 54,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-06T00:27:13Z",
     "tag": [
-      "vue", "http","request"
+      "vue", "http","request","fecth","get","this","arrow"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526478#content",
+    "description": "Explains how to get data from Firebase and present it in the browser."
   }
 
