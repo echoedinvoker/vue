@@ -14,6 +14,8 @@
 
 ![Alt comp beforeRouteEnter](pic/03.jpg)
 
+- Note that there is a sequential order in the execution of hooks at different levels.
+
 ## **Replace Watcher with beforeRouteUpdate or not?**
 
 ![Alt watch](pic/04.jpg)
