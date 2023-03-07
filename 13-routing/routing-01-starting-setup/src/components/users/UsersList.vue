@@ -1,4 +1,5 @@
 <template>
+  <button @click="saveForm">Save Form</button>
   <ul>
     <user-item
       v-for="user in users"
@@ -17,6 +18,27 @@ export default {
     UserItem,
   },
   inject: ['users'],
+  data() {
+    return {
+      formSaved: false,
+    };
+  },
+  methods: {
+    saveForm() {
+      this.formSaved = true;
+    },
+  },
+  // unmounted() {},
+  beforeRouteLeave(to, from, next) {
+    console.log('beforeRouteLeave');
+    console.log(to, from);
+    if (this.formSaved) {
+      next();
+    } else {
+      const userConfirm = confirm("You haven't saved, sure you want to leave?");
+      next(userConfirm);
+    }
+  },
 };
 </script>
 
