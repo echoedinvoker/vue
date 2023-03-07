@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/13-routing/184-dive-nav-guard/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "13. Routing: Building Multi-Pages Single Page Applications",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "184. Diving Deeper into Navigation Guards",
+    "video.length": 7,
+    "time.comsuming": 45,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-07T12:23:33Z",
     "tag": [
-      "vue", "route"
+      "vue", "route","hook","middleware","before","guard","navigation","level","watch"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879396#content",
+    "description": "Explore different levels of Navigation Guard, and try to use hooks to solve the problems caused by re-use of components."
   }
 
