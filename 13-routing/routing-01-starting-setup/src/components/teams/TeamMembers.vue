@@ -27,10 +27,11 @@ export default {
     };
   },
   inject: ['teams', 'users'],
+  props: ['teamId'],
   methods: {
-    loadTeamMembers(route) {
-      // const teamId = this.$route.params.teamId;
-      const teamId = route.params.teamId;
+    // loadTeamMembers(route) {
+    loadTeamMembers(teamId) {
+      // const teamId = route.params.teamId;
 
       const selectedTeam = this.teams.find((team) => team.id === teamId);
       const selectedMembers = selectedTeam.members.map((member) => {
@@ -43,21 +44,14 @@ export default {
     },
   },
   created() {
-    // const teamId = this.$route.params.teamId;
-
-    // const selectedTeam = this.teams.find((team) => team.id === teamId);
-    // const selectedMembers = selectedTeam.members.map((member) => {
-    //   const selectedUser = this.users.find((user) => user.id === member);
-    //   return selectedUser;
-    // });
-
-    // this.teamName = selectedTeam.name;
-    // this.members = selectedMembers;
-    this.loadTeamMembers(this.$route);
+    // this.loadTeamMembers(this.$route);
+    this.loadTeamMembers(this.teamId);
   },
   watch: {
-    $route(newRoute) {
-      this.loadTeamMembers(newRoute);
+    // $route(newRoute) {
+    teamId(newId) {
+      // this.loadTeamMembers(newRoute);
+      this.loadTeamMembers(newId);
     },
   },
 };
