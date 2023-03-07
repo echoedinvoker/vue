@@ -2,7 +2,7 @@
 
 ![Alt root problem](pic/01.jpg)
 
-- But it's all strange to set a component to '/', because '/' doesn't describe what component the router is going to load, which is not intuitive.
+- But it's also strange to set a component to '/', because '/' doesn't describe what component the router is going to load, which is not intuitive.
 
 ## **Alias**
 
