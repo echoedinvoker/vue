@@ -38,12 +38,21 @@ const router = createRouter({
     { path: '/:notFound(.*)', component: NotFound },
   ],
   scrollBehavior(to, from, savedPosition) {
-    console.log(to, from, savedPosition);
+    // console.log(to, from, savedPosition);
     if (savedPosition) {
       return savedPosition;
     }
     return { left: 0, top: 0 };
   },
+});
+
+router.beforeEach((to, from, next) => {
+  console.log(to, from);
+  if (to.path === '/teams/t2') {
+    next();
+  } else {
+    next('/teams/t2');
+  }
 });
 
 const app = createApp(App);
