@@ -12,7 +12,7 @@
 
 ![Alt next(false)](pic/11.jpg)
 
-### _next(<path string>)_
+### _next() with string path_
 
 ![Alt next(path string)](pic/12.jpg)
 
