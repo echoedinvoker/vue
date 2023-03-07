@@ -27,7 +27,7 @@ export default {
     };
   },
   inject: ['teams', 'users'],
-  props: ['teamId'],
+  props: ['teamId', 'query'],
   methods: {
     // loadTeamMembers(route) {
     loadTeamMembers(teamId) {
@@ -44,13 +44,12 @@ export default {
     },
   },
   created() {
-    // this.loadTeamMembers(this.$route);
     this.loadTeamMembers(this.teamId);
+    console.log(this.$route.query);
+    console.log(this.query);
   },
   watch: {
-    // $route(newRoute) {
     teamId(newId) {
-      // this.loadTeamMembers(newRoute);
       this.loadTeamMembers(newId);
     },
   },

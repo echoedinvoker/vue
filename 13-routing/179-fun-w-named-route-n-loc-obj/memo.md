@@ -2,6 +2,8 @@
 
 ![Alt RouterLink to object](pic/01.jpg)
 
+- We can use object type to this.$route.puch() as well.
+
 ![Alt move logic to script](pic/02.jpg)
 
 ## **Name of Routes**

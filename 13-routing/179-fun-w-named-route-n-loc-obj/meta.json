@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/13-routing/179-fun-w-named-route-n-loc-obj/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "13. Routing: Building Multi-Pages Single Page Applications",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "179. More Fun with Named Routes & Location Objects",
+    "video.length": 5,
+    "time.comsuming": 35,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-07T03:29:16Z",
     "tag": [
-      "vue", "route"
+      "vue", "route","nested","name","configure","routerlink","object","option","params","location"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879366#content",
+    "description": "Explain how to use a better way to generate paths as more and more routes are nested."
   }
 
