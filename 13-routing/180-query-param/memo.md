@@ -9,3 +9,5 @@
 ## **Can Query params pass value through props**
 
 ![Alt can query params pass value through props](pic/03.jpg)
+
+- We can only get the value of the query params by means of $route.
