@@ -27,6 +27,9 @@ const router = createRouter({
           props: true,
         },
       ],
+      meta: {
+        needsAuth: true,
+      },
     },
     {
       path: '/users',
@@ -45,9 +48,13 @@ const router = createRouter({
   },
 });
 
-router.afterEach((to, from) => {
-  console.log('afterEach');
-  console.log(to, from);
+router.beforeEach((to, from, next) => {
+  if (to.meta.needsAuth) {
+    // check user auth
+    next('true or false');
+  } else {
+    next();
+  }
 });
 
 const app = createApp(App);

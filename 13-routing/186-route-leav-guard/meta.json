@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/13-routing/186-route-leav-guard/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "13. Routing: Building Multi-Pages Single Page Applications",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "186. Beyond Entering: Route Leave Guards",
+    "video.length": 7,
+    "time.comsuming": 47,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-07T21:30:11Z",
     "tag": [
-      "vue", "route"
+      "vue", "route","guard","leave","user","save"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879406#content",
+    "description": "Introducing a way to greatly enhance the user experience with Guard."
   }
 
