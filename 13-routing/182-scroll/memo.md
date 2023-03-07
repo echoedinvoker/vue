@@ -18,6 +18,8 @@
 
 ## **Leverage savedPosition**
 
+> Based on the above observations, we can use savedPosition to further optimize the user experience.
+
 ![Alt leverage savedPosition](pic/06.jpg)
 
 ![Alt operate and observe click button](pic/07.jpg)
