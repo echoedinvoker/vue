@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/13-routing/176-pass-param-as-props/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "13. Routing: Building Multi-Pages Single Page Applications",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "176. Passing Params as Props",
+    "video.length": 4,
+    "time.comsuming": 33,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-07T00:59:34Z",
     "tag": [
-      "vue", "route"
+      "vue", "route","props","common","configure"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879354#content",
+    "description": "Explains how to increase the versatility of the component about using route or props to pass values"
   }
 
