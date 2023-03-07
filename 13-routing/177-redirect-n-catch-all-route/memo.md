@@ -8,6 +8,8 @@
 
 ![Alt alias](pic/02.jpg)
 
+- Although '/' can be loaded into a component, the path is not readable.
+
 ## **Redirect**
 
 ![Alt redirect](pic/03.jpg)
