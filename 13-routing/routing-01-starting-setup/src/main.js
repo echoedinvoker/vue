@@ -46,15 +46,6 @@ const router = createRouter({
   },
 });
 
-router.beforeEach((to, from, next) => {
-  console.log(to, from);
-  if (to.path === '/teams/t2') {
-    next();
-  } else {
-    next('/teams/t2');
-  }
-});
-
 const app = createApp(App);
 
 app.use(router);
