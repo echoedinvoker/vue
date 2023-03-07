@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/13-routing/187-route-metadata/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "13. Routing: Building Multi-Pages Single Page Applications",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "187. Utilizing Route Metadata",
+    "video.length": 2,
+    "time.comsuming": 16,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-07T21:54:43Z",
     "tag": [
-      "vue", "route"
+      "vue", "route","meta","configuration","guard","global","conditional"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879416#content",
+    "description": "Using 'meta' to enable part of global guard functionality."
   }
 
