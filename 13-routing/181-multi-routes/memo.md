@@ -19,3 +19,6 @@
 ### _/users_
 
 ![Alt result /users](pic/04.jpg)
+
+- So router can help us to load multiple components in the same layer.
+  qq
