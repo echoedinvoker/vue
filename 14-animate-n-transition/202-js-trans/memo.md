@@ -4,7 +4,13 @@
 
 ![Alt still emit events](pic/02.jpg)
 
+### _Why we use JS animation_
+
+> Most of the time we use CSS animations, which is the recommended way, but sometimes when we use third-party packages that provide complex animations written in JS, we have to use JS approaches to put them in.
+
 ![Alt greensock](pic/03.jpg)
+
+- The above is a third-party library that provides JS animations, but we are writing simple animations directly in the following contents.
 
 ## **JavaScript Animation**
 
@@ -25,3 +31,5 @@
 ![Alt solve flicker problem](pic/08.jpg)
 
 ![Alt qa](pic/09.jpg)
+
+![Alt qa](pic/10.jpg)
