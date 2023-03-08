@@ -1,5 +1,7 @@
 ## **Dialog Modal**
 
+> Next, we want to animate the Dialog's appearance.
+
 ![Alt modal](pic/01.jpg)
 
 ## **Implement Animation**
