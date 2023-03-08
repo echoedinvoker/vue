@@ -26,6 +26,8 @@
 
 ![Alt done but has flicker problem](pic/06.jpg)
 
+- Vue doesn't parse our JavaScript codes to determine when the animation ends, so you have to tell it yourself, which is why it's recommended to use CSS animation.
+
 ![Alt cancelled event](pic/07.jpg)
 
 ![Alt solve flicker problem](pic/08.jpg)

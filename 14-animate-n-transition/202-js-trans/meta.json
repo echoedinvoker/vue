@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/14-animate-n-transition/202-js-trans/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "14. Animations & Transitions",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "202. Building JavaScript Transitions (instead of CSS)",
+    "video.length": 15,
+    "time.comsuming": 95,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-08T22:24:30Z",
     "tag": [
-      "vue" 
+      "vue","transition","qa","cancel","event","js","animation","done" 
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879512#content",
+    "description": "Explains how to use JavaScript to create transitional animations instead of using CSS."
   }
 
