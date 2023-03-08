@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/14-animate-n-transition/194-why-css-not-enough/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "14. Animations & Transitions",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "194. Why Is Just CSS Not Enough?",
+    "video.length": 4,
+    "time.comsuming": 24,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-08T02:33:36Z",
     "tag": [
-      "vue" 
+      "vue","modal","dialog","appear","animate","keyframes"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879446#content",
+    "description": "Explain why generating animations using only CSS is not enough for all situations."
   }
 
