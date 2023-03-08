@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/14-animate-n-transition/199-ex-ani-a-modal/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "14. Animations & Transitions",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "199. Example: Animating a Modal",
+    "video.length": 9,
+    "time.comsuming": 61,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-08T08:19:01Z",
     "tag": [
-      "vue" 
+      "vue","transition","dialog","modal","prop","v-if","root"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879486#content",
+    "description": "Change to use transition to generate modal disappearing animation, many problems will occur in the process."
   }
 

@@ -9,13 +9,17 @@
     </transition>
     <button @click="toggleParagraph">Toggle Paragraph</button>
   </div>
-  <!-- <transition name="modal"> -->
-  <!-- <base-modal @close="hideDialog" v-if="dialogIsVisible"> -->
+  <div class="container">
+    <transition name="user-button" mode="out-in">
+      <button @click="showUsers" v-if="!userIsVisible">Show Users</button>
+      <!-- <button @click="hideUsers" v-if="userIsVisible">Hide Users</button> -->
+      <button @click="hideUsers" v-else>Hide Users</button>
+    </transition>
+  </div>
   <base-modal @close="hideDialog" :open="dialogIsVisible">
     <p>This is a test dialog!</p>
     <button @click="hideDialog">Close it!</button>
   </base-modal>
-  <!-- </transition> -->
   <div class="container">
     <button @click="showDialog">Show Dialog</button>
   </div>
@@ -28,9 +32,16 @@ export default {
       dialogIsVisible: false,
       animatedBlock: false,
       paragraphIsVisible: false,
+      userIsVisible: false,
     };
   },
   methods: {
+    showUsers() {
+      this.userIsVisible = true;
+    },
+    hideUsers() {
+      this.userIsVisible = false;
+    },
     toggleParagraph() {
       this.paragraphIsVisible = !this.paragraphIsVisible;
     },
@@ -48,23 +59,21 @@ export default {
 </script>
 
 <style>
-/* .modal-enter-active {
-  animation: modal 0.3s ease-out;
+.user-button-enter-from,
+.user-button-leave-to {
+  opacity: 0;
 }
-.modal-leave-active {
-  animation: modal 0.3s ease-out;
+.user-button-enter-active {
+  transition: opacity 0.3s ease-out;
 }
-@keyframes modal {
-  from {
-    opacity: 0;
-    transform: translateY(-50px) scale(0.9);
-  }
+.user-button-leave-active {
+  transition: opacity 0.3s ease-in;
+}
+.user-button-enter-to,
+.user-button-leave-from {
+  opacity: 1;
+}
 
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-} */
 * {
   box-sizing: border-box;
 }
