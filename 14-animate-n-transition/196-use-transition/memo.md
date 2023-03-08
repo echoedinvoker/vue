@@ -10,6 +10,8 @@
 
 ### _transition_
 
+> Transform the start-to-finish styling into animation, so it must be handled in a class that persists throughout the enter process.
+
 ![Alt put transition in the active](pic/06.jpg)
 
 ## **Animation of Component leave**
