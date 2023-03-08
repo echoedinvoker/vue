@@ -41,16 +41,32 @@ export default {
       animatedBlock: false,
       paragraphIsVisible: false,
       userIsVisible: false,
+      enterAnimation: null,
+      leaveAnimation: null,
     };
   },
   methods: {
     beforeEnter(el) {
       console.log('beforeEnter');
-      console.log(el);
+      if (this.leaveAnimation) {
+        clearInterval(this.leaveAnimation);
+      }
+      el.style.opacity = 0;
     },
-    enter(el) {
+    enter(el, done) {
       console.log('enter');
-      console.log(el);
+      let round = 1;
+      // const interval = setInterval(() => {
+      this.enterAnimation = setInterval(() => {
+        el.style.opacity = round * 0.02;
+        round++;
+        if (round > 50) {
+          // clearInterval(interval);
+          clearInterval(this.enterAnimation);
+          console.log('animation end');
+          done();
+        }
+      }, 20);
     },
     afterEnter(el) {
       console.log('afterEnter');
@@ -58,11 +74,25 @@ export default {
     },
     beforeLeave(el) {
       console.log('beforeLeave');
-      console.log(el);
+      if (this.enterAnimation) {
+        clearInterval(this.enterAnimation);
+      }
+      el.style.opacity = 1;
     },
-    leave(el) {
+    leave(el, done) {
       console.log('leave');
-      console.log(el);
+      let round = 50;
+      // const interval = setInterval(() => {
+      this.leaveAnimation = setInterval(() => {
+        round--;
+        el.style.opacity = round * 0.02;
+        if (round === 0) {
+          // clearInterval(interval);
+          clearInterval(this.leaveAnimation);
+          console.log('animation end');
+          done();
+        }
+      }, 20);
     },
     afterLeave(el) {
       console.log('afterLeave');
@@ -147,26 +177,6 @@ button:active {
   border-radius: 12px;
 }
 .animate {
-  /* transform: translateX(-150px); */
   animation: side-fade 0.3s ease-out forwards;
-}
-@keyframes side-fade {
-  0% {
-    transform: translateX(0) scale(1);
-  }
-
-  70% {
-    transform: translateX(-120px) scale(1.1);
-  }
-
-  100% {
-    transform: translate(-150px) scale(1);
-  }
-}
-.para-enter-active {
-  animation: side-fade 0.3s ease-in;
-}
-.para-leave-active {
-  animation: side-fade 0.3s ease-out;
 }
 </style>
