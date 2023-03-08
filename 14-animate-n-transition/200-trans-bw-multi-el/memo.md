@@ -2,6 +2,8 @@
 
 ![Alt prepare dummy switch buttons](pic/01.jpg)
 
+- So we have to use <transition> to animate the appearance and disappearance of these two buttons.
+
 ## **Exceptions to the single element principle**
 
 ### **What is exception?**
