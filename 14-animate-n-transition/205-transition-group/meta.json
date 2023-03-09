@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/14-animate-n-transition/205-transition-group/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "14. Animations & Transitions",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "205. Animating Lists with transition-group",
+    "video.length": 5,
+    "time.comsuming": 24,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-09T08:16:02Z",
     "tag": [
-      "vue" 
+      "vue","group","list","animation","transition","ul"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879520#content",
+    "description": "Use transition groups to set individual transition animations for each member of the list."
   }
 

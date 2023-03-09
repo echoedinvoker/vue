@@ -41,6 +41,7 @@ export default {
 }
 .user-list-leave-active {
   transition: all 1s ease-in;
+  position: absolute;
 }
 .user-list-enter-to,
 .user-list-leave-from {
@@ -50,6 +51,9 @@ export default {
 .user-list-leave-to {
   opacity: 0;
   transform: translateX(30px);
+}
+.user-list-move {
+  transition: transform 1s ease;
 }
 ul {
   list-style: none;
