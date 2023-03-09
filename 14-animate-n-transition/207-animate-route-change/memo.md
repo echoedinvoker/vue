@@ -29,3 +29,5 @@
 ![Alt reload problem](pic/07.jpg)
 
 ![Alt fix it](pic/08.jpg)
+
+## **Note: When you use transition to route component, your route component must be only one root element!
