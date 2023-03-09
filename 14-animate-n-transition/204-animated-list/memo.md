@@ -1,4 +1,4 @@
-# **\*Prepare Functional List**
+# **_Prepare Functional List_**
 
 > This lecture prepares a simple unordered list with the ability to add and remove members for the later lectures to explain how to add animations to these operations.
 
