@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/14-animate-n-transition/203-dis-css-trans/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "14. Animations & Transitions",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "203. Disabling CSS Transitions",
+    "video.length": 3,
+    "time.comsuming": 12,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-08T22:39:50Z",
     "tag": [
-      "vue" 
+      "vue","disable","css","attribute","transition","performance"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879518#content",
+    "description": "Explains how to stop the CSS parsing process to improve the performance of the app when we use JavaScript to create transitional animations."
   }
 
