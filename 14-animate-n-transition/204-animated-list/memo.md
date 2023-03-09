@@ -4,6 +4,8 @@
 
 ## **Create a Simple Unorder List**
 
+> Build the list in a separate component, because the App.vue codes are too much.
+
 ![Alt create a list](pic/01.jpg)
 
 ## **Simple Styling to it**
@@ -13,3 +15,5 @@
 ## **Add ways to add/remove users**
 
 ![Alt add/remove user func](pic/03.jpg)
+
+- The next lecture will add transition animation to these actions.
