@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/212-create-n-use-a-store/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "212. Creating & Using a Store",
+    "video.length": 5,
+    "time.comsuming": 38,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T01:01:00Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","store","global","state","new","counter"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879698#content",
+    "description": "Replacing component 'data store state' with Vuex store."
   }
 
