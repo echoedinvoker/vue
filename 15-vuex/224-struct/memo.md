@@ -10,9 +10,9 @@
 
 ![Alt to store/index](pic/03.jpg)
 
-## **Separate features**
-
 ![Alt to store/counter/index](pic/04.jpg)
+
+## **Separate features**
 
 ![Alt split to features from index](pic/05.jpg)
 
