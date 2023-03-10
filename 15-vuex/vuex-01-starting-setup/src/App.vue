@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
+
 import BaseContainer from './components/BaseContainer.vue';
 import TheCounter from './components/TheCounter.vue';
 import TheButton from './components/TheButton.vue';
@@ -21,10 +23,12 @@ export default {
     FavoriteValue,
   },
   methods: {
-    addOne() {
-      // this.$store.commit('increment');
-      this.$store.dispatch('increment');
-    },
+    // addOne() {
+    //   this.$store.dispatch('increment');
+    // },
+    ...mapActions({
+      addOne: 'increment',
+    }),
   },
 };
 </script>
