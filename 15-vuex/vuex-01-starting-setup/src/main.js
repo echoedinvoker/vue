@@ -11,18 +11,30 @@ const store = createStore({
     increment(state) {
       state.counter++;
     },
+    // increment(state) {
+    //   setTimeout(function () {
+    //     state.counter++;
+    //   }, 2000);
+    // },
     increase(state, payload) {
       state.counter = state.counter + payload.value;
     },
   },
+  actions: {
+    increment(context) {
+      setTimeout(function () {
+        context.commit('increment');
+      }, 2000);
+    },
+    increase(context, payload) {
+      context.commit('increase', payload);
+    },
+  },
   getters: {
     finalCounter(state) {
-      // return state.counter * 3;
       return state.counter * 4;
     },
     rangeCounter(_, getters) {
-      // const finalCounter = state.counter * 3;
-      // const finalCounter = state.counter * 4;
       const finalCounter = getters.finalCounter;
       if (finalCounter < 0) {
         return 0;

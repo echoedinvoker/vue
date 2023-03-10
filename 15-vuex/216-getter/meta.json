@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/216-getter/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "216. Introducing Getters - A Better Way Of Getting Data",
+    "video.length": 8,
+    "time.comsuming": 56,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T03:34:35Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","getters","arg","argument","problem","get","access"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879732#content",
+    "description": "Explain why we should all use Getters to access states in the Vue Store, and actually walk through."
   }
 
