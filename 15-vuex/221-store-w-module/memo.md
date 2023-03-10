@@ -16,4 +16,6 @@
 
 ## **Page Result**
 
+> The above is actually just a simple separation of the code, after merge, it is actually the same as the original situation without any module.
+
 ![Alt page](pic/04.jpg)
