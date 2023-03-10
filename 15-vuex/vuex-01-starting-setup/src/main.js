@@ -15,6 +15,24 @@ const store = createStore({
       state.counter = state.counter + payload.value;
     },
   },
+  getters: {
+    finalCounter(state) {
+      // return state.counter * 3;
+      return state.counter * 4;
+    },
+    rangeCounter(_, getters) {
+      // const finalCounter = state.counter * 3;
+      // const finalCounter = state.counter * 4;
+      const finalCounter = getters.finalCounter;
+      if (finalCounter < 0) {
+        return 0;
+      }
+      if (finalCounter > 100) {
+        return 100;
+      }
+      return finalCounter;
+    },
+  },
 });
 
 import App from './App.vue';
