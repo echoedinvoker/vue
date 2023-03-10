@@ -2,6 +2,8 @@
 
 ![Alt main.js too fat](pic/01.jpg)
 
+- The following describes the various levels of separation structures.
+
 ## **Separate store**
 
 ![Alt split store](pic/02.jpg)
