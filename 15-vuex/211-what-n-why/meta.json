@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/211-what-n-why/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "211. What & Why?",
+    "video.length": 7,
+    "time.comsuming": 21,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-09T22:35:34Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","why","what","concept","state"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879694#content",
+    "description": "Explain what Vuex is and why we need it."
   }
 

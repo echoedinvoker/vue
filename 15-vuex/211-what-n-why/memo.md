@@ -1,5 +1,7 @@
 ## **What?**
 
+> Vuex is a third-party suite dedicated to managing the state of Vue apps.
+
 ![Alt what](pic/01.jpg)
 
 - 'state' represents a variable that will change, and its change will trigger a change in the page.
