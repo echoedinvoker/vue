@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/222-local-module-state/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "222. Understanding Local Module State",
+    "video.length": 4,
+    "time.comsuming": 23,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T21:30:49Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","local","module","state","root"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879788#content",
+    "description": "The state in the module is local."
   }
 

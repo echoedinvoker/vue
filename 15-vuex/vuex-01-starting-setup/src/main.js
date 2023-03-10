@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import { createStore } from 'vuex';
 
 const counterModule = {
+  namespaced: true,
   state() {
     return {
       counter: 0,
@@ -31,7 +32,7 @@ const counterModule = {
     finalCounter(state) {
       return state.counter * 4;
     },
-    rangeCounter(_, getters, rootState, rootGetters) {
+    rangeCounter(_, getters) {
       const finalCounter = getters.finalCounter;
       if (finalCounter < 0) {
         return 0;
@@ -50,31 +51,15 @@ const store = createStore({
   },
   state() {
     return {
-      // counter: 0,
       authenticated: false,
     };
   },
   mutations: {
-    // increment(state) {
-    //   state.counter++;
-    // },
-    // increase(state, payload) {
-    //   state.counter = state.counter + payload.value;
-    // },
     setAuth(state, payload) {
       state.authenticated = payload.isAuth;
     },
   },
   actions: {
-    // increment(context) {
-    //   setTimeout(function () {
-    //     context.commit('increment');
-    //   }, 2000);
-    // },
-    // increase(context, payload) {
-    //   console.log(context);
-    //   context.commit('increase', payload);
-    // },
     login(context) {
       // context.commit('login');
       context.commit('setAuth', { isAuth: true });
@@ -87,19 +72,6 @@ const store = createStore({
     authenticated(state) {
       return state.authenticated;
     },
-    // finalCounter(state) {
-    //   return state.counter * 4;
-    // },
-    // rangeCounter(_, getters) {
-    //   const finalCounter = getters.finalCounter;
-    //   if (finalCounter < 0) {
-    //     return 0;
-    //   }
-    //   if (finalCounter > 100) {
-    //     return 100;
-    //   }
-    //   return finalCounter;
-    // },
   },
 });
 
