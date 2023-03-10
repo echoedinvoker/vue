@@ -21,3 +21,5 @@
 > So even though the method of mutations is inherently synchronous, we must generate a method of actions to trigger it.
 
 ![Alt every mutations need actions to trigger](pic/04.jpg)
+
+- In the actions method we can also do something with the payload passed from the component, in fact we can do anything here.

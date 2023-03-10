@@ -11,11 +11,6 @@ const store = createStore({
     increment(state) {
       state.counter++;
     },
-    // increment(state) {
-    //   setTimeout(function () {
-    //     state.counter++;
-    //   }, 2000);
-    // },
     increase(state, payload) {
       state.counter = state.counter + payload.value;
     },
@@ -27,6 +22,7 @@ const store = createStore({
       }, 2000);
     },
     increase(context, payload) {
+      console.log(context);
       context.commit('increase', payload);
     },
   },
