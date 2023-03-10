@@ -1,3 +1,5 @@
+> Regarding the use of actions and getters in components, vuex provides useful tools to make our codes more concise.
+
 ## **mapGetters**
 
 ![Alt mapGetters](pic/01.jpg)
