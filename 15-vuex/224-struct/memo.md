@@ -14,6 +14,8 @@
 
 ## **Separate features**
 
+> it means that mutations, actions, and getters are also separated into their own files.
+
 ![Alt split to features from index](pic/05.jpg)
 
 ![Alt import/use features back](pic/06.jpg)
