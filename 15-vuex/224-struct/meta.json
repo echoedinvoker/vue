@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/224-struct/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "224. Structuring Vuex Codes & Files",
+    "video.length": 9,
+    "time.comsuming": 53,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T23:07:05Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","split","fat","structure","store","separate","file"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879798#content",
+    "description": "Explain how to spread the codes in multiple files when the store content is too much and the main.js is too fat."
   }
 
