@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/219-mapper-help/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "219. Using Mapper Helpers",
+    "video.length": 6,
+    "time.comsuming": 44,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T08:52:52Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","helper","tool","actions","getters","map","mapActions","mapGetters","syntax","sugar"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879770#content",
+    "description": "Introducing two useful tools to help us use getters and actions from the vuex store in our components."
   }
 
