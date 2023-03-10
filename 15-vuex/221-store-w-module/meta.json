@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/15-vuex/221-store-w-module/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "221. Organizing your Store with Modules",
+    "video.length": 4,
+    "time.comsuming": 31,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T21:04:35Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","store","module","fat","split","merge"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879786#content",
+    "description": "Explains how to use module to organize the content of the Vue store."
   }
 

@@ -7,8 +7,9 @@ const counterModule = {
       counter: 0,
     };
   },
-  mutaions: {
+  mutations: {
     increment(state) {
+      console.log(state);
       state.counter++;
     },
     increase(state, payload) {
@@ -30,7 +31,7 @@ const counterModule = {
     finalCounter(state) {
       return state.counter * 4;
     },
-    rangeCounter(_, getters) {
+    rangeCounter(_, getters, rootState, rootGetters) {
       const finalCounter = getters.finalCounter;
       if (finalCounter < 0) {
         return 0;
