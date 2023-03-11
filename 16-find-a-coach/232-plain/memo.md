@@ -1,5 +1,7 @@
 ## **App Features**
 
+> Here are the features of the project to be done in this chapter.
+
 ![Alt features](pic/01.jpg)
 
 ## **Planing**
