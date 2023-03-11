@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/238-wire-up-page/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "238. Wiring Up Pages",
+    "video.length": 5,
+    "time.comsuming": 39,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-11T21:25:27Z",
     "tag": [
-      "vue","project" 
+      "vue","project","navigation","dummy","page","nav","link","router","route"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879904#content",
+    "description": "Make navigation to each page."
   }
 
