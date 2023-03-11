@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/239-add-vues-coach-data/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "239. Adding Vuex and Coach Data",
+    "video.length": 12,
+    "time.comsuming": 65,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-11T22:34:01Z",
     "tag": [
-      "vue","project" 
+      "vue","project","store","vuex","v-if","v-for" 
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879906#content",
+    "description": "Create a vuex store and enter some dummy data so that they can eventually be presented on the page."
   }
 
