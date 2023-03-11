@@ -19,4 +19,6 @@
 
 ![Alt use list component in ul component](pic/04.jpg)
 
+- parent is the role of concatenating data, so pay special attention to the correctness of names.
+
 ![Alt result and future plan](pic/05.jpg)
