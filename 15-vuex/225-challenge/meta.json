@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/tree/master/15-vuex/225-challenge",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "15. Vuex",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "225. A Challenge!",
+    "video.length": 2,
+    "time.comsuming": 20,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-10T23:30:58Z",
     "tag": [
-      "vue","vuex" 
+      "vue","vuex","challenge","intro"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879800#content",
+    "description": "A Challenge! Migrate all state from Vue app to Vuex Store."
   }
 
