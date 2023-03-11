@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/235-regist-route/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "235. Registering Routes",
+    "video.length": 6,
+    "time.comsuming": 31,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-11T05:47:30Z",
     "tag": [
-      "vue","project" 
+      "vue","project","router","route","change","list","null"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879886#content",
+    "description": "Start coding from router."
   }
 
