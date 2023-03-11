@@ -1,8 +1,6 @@
-## **Create Vue Store Files/Folders**
+## **Vue Store Basic Structure**
 
 ![Alt files](pic/01.jpg)
-
-## **Build Basic Structure**
 
 ![Alt basic structure](pic/02.jpg)
 
