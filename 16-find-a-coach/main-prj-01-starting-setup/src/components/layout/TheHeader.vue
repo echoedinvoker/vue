@@ -3,7 +3,6 @@ import { Router } from 'express';
 <template>
   <header>
     <nav>
-      <!-- <h1>Find a Coach</h1> -->
       <h1>
         <router-link to="/">Find a Coach</router-link>
       </h1>

@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/237-main-layout-styling/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "237. Working on the Main Layout & Styling",
+    "video.length": 8,
+    "time.comsuming": 65,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-11T07:37:50Z",
     "tag": [
-      "vue","project" 
+      "vue","project","header","first","component","page","style","nav","semantic"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879900#content",
+    "description": "We start by implementing the components that we will see at the beginning."
   }
 
