@@ -1,4 +1,4 @@
-# **\*Wiring Up All Pages**
+# **_Wiring Up All Pages_**
 
 > The goal of this lecture is to connect each page component together using navigation and to make their dummy pages at least to present some content on the page to make sure it works properly.
 
