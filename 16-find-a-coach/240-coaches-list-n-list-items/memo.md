@@ -9,6 +9,8 @@
 
 ![Alt create list component](pic/02.jpg)
 
+- We are using 'props' here instead of accessing data directly from the vuex store, design and accessing data should be separated, this component should focus on the design only.
+
 ### _computed_
 
 ![Alt computed links](pic/03.jpg)

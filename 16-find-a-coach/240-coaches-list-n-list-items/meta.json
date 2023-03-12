@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/240-coaches-list-n-list-items/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "240. Working on the Coaches List and List Items",
+    "video.length": 11,
+    "time.comsuming": 66,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-11T23:44:16Z",
     "tag": [
-      "vue","project" 
+      "vue","project","list","normal","normal","component","parent","name","props"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879914#content",
+    "description": "Create components to replace list elements and present more detailed content."
   }
 
