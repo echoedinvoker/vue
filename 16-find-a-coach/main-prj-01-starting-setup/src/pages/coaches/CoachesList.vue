@@ -8,7 +8,7 @@
         <!-- <button>Refresh</button> -->
         <base-button mode="outline">Refresh</base-button>
         <!-- <router-link to="/register">Register as Coach</router-link> -->
-        <base-button to="/register">Register as Coach</base-button>
+        <base-button link to="/register">Register as Coach</base-button>
       </div>
       <ul v-if="hasCoaches">
         <coach-item
