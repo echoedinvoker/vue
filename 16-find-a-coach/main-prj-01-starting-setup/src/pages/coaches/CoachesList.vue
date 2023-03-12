@@ -1,13 +1,13 @@
 <template>
-  <base-card>
-    <section>FILTER</section>
-  </base-card>
+  <!-- <base-card> -->
+  <!-- <section>FILTER</section> -->
+  <!-- </base-card> -->
+  <!-- <coach-filter></coach-filter> -->
+  <coach-filter @change-filter="setFilters"></coach-filter>
   <base-card>
     <section>
       <div class="controls">
-        <!-- <button>Refresh</button> -->
         <base-button mode="outline">Refresh</base-button>
-        <!-- <router-link to="/register">Register as Coach</router-link> -->
         <base-button link to="/register">Register as Coach</base-button>
       </div>
       <ul v-if="hasCoaches">
@@ -28,17 +28,44 @@
 
 <script>
 import CoachItem from '../../components/coaches/CoachItem.vue';
+import CoachFilter from '../../components/coaches/CoachFilter.vue';
 
 export default {
   components: {
     CoachItem,
+    CoachFilter,
+  },
+  data() {
+    return {
+      activeFilter: {
+        frontend: true,
+        backend: true,
+        career: true,
+      },
+    };
   },
   computed: {
     filteredCoaches() {
-      return this.$store.getters['coaches/coaches'];
+      // return this.$store.getters['coaches/coaches'];
+      const coaches = this.$store.getters['coaches/coaches'];
+      const filteredCoaches = coaches.filter((coach) => {
+        if (this.activeFilter.frontend && coach.areas.includes('frontend'))
+          return true;
+        if (this.activeFilter.backend && coach.areas.includes('backend'))
+          return true;
+        if (this.activeFilter.career && coach.areas.includes('career'))
+          return true;
+        return false;
+      });
+      return filteredCoaches;
     },
     hasCoaches() {
       return this.$store.getters['coaches/hasCoaches'];
+    },
+  },
+  methods: {
+    setFilters(updatedFilters) {
+      this.activeFilter = updatedFilters;
     },
   },
 };
