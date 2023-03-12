@@ -1,3 +1,7 @@
+# **_UI/Base Components_**
+
+> This lecture designs some generic components and uses them.
+
 ## **BaseCard**
 
 ### _design, register, implement_
