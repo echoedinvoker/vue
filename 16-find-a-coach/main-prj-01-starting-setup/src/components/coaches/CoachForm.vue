@@ -56,7 +56,8 @@ export default {
         areas: this.areas,
       };
 
-      console.log(formData);
+      // console.log(formData);
+      this.$emit('save-data', formData);
     },
   },
 };
