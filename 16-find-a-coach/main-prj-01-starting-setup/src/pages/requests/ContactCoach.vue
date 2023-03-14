@@ -1,5 +1,4 @@
 <template>
-  <!-- <h2>TEST</h2> -->
   <form @submit.prevent="submitForm">
     <div class="form-control">
       <label for="email">Your E-Mail</label>
@@ -25,6 +24,7 @@ export default {
       formIsValid: true,
     };
   },
+  props: ['id'],
   methods: {
     submitForm() {
       this.formIsValid = true;
@@ -38,6 +38,14 @@ export default {
       }
 
       // submit to ?
+      const newRequest = {
+        coachId: this.id,
+        email: this.email,
+        message: this.message,
+      };
+
+      // console.log(newRequest);
+      this.$store.dispatch('requests/contactCoach', newRequest);
     },
   },
 };
