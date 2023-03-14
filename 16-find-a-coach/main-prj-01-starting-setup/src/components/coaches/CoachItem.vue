@@ -15,7 +15,9 @@
     </div>
     <div>
       <!-- <router-link :to="coachContactLink">Contact</router-link> -->
-      <base-button mode="outline" :to="coachContactLink">Contact</base-button>
+      <base-button mode="outline" link :to="coachContactLink"
+        >Contact</base-button
+      >
       <!-- <router-link :to="coachDetailsLink">View Details</router-link> -->
       <base-button link :to="coachDetailsLink">View Details</base-button>
     </div>
@@ -30,6 +32,7 @@ export default {
       return this.firstName + ' ' + this.lastName;
     },
     coachContactLink() {
+      console.log('test');
       return this.$route.path + '/' + this.id + '/contact'; // coaches/c1/contact
     },
     coachDetailsLink() {
