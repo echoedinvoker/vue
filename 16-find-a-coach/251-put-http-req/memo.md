@@ -2,6 +2,8 @@
 
 ### _Firebase realtime database_
 
+> Check if the Firebase account is still working, and copy the api url btw.
+
 ![Alt firebase realtime db](pic/01.jpg)
 
 ### _our goal_
