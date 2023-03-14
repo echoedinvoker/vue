@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/249-output-incoming-request/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "249. Outputting Incoming Requests (Messages)",
+    "video.length": 10,
+    "time.comsuming": 70,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-14T07:04:39Z",
     "tag": [
-      "vue","project" 
+      "vue","project","request","output","list","props","item"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879962#content",
+    "description": "Presents the contact coach data entered by the user on a page."
   }
 
