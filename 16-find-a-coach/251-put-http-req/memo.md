@@ -1,6 +1,10 @@
 ## **Firebase & Our goal**
 
+### _Firebase realtime database_
+
 ![Alt firebase realtime db](pic/01.jpg)
+
+### _our goal_
 
 ![Alt goal](pic/02.jpg)
 
