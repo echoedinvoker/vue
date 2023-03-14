@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/16-find-a-coach/251-put-http-req/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "16. Main Project: Find a Coach Web App",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "251. Sending a PUT Http Request to Store Coach Data",
+    "video.length": 11,
+    "time.comsuming": 51,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-14T09:11:09Z",
     "tag": [
-      "vue","project" 
+      "vue","project","put","fetch","store","db","firebase"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879970#content",
+    "description": "Enables registered coaches to store in the database so that data is never lost."
   }
 
