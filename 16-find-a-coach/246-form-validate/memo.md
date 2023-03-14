@@ -4,9 +4,15 @@
 
 ## **Validate Single Field**
 
+### _method_
+
 ![Alt validate methods for each field indepently](pic/02.jpg)
 
+### _dynamic render/styling_
+
 ![Alt dynamic render/styling](pic/03.jpg)
+
+### _test_
 
 ![Alt page result](pic/04.jpg)
 
