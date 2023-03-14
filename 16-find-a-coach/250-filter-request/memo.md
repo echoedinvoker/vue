@@ -4,6 +4,8 @@
 
 ![Alt refactor getters of requests](pic/06.jpg)
 
+- Although the root module is currently using dummy data for the userId, the filtering is already done.
+
 ## **Test**
 
 ![Alt test - register](pic/07.jpg)
