@@ -10,6 +10,8 @@
 
 ## **reactive**
 
+> When the value is an object, we can choose to use reacitve in addition to ref.
+
 ![Alt reactive](pic/04.jpg)
 
 ## **ref vs reactive**
