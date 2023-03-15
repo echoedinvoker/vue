@@ -4,31 +4,25 @@
   </section>
 </template>
 
-<script>
+<!-- <script> -->
+<script setup>
 import { ref } from 'vue';
 
-export default {
-  // data() {
-  //   return {
-  //     userName: 'Maximilian',
-  //   };
-  // },
-  setup() {
-    // this
-    // const userName = 'Maximilian';
-    // let userName = 'Maximilian';
-    const userName = ref('Maximilian');
+// export default {
+//   setup() {
 
-    setTimeout(() => {
-      // userName = 'Max';
-      userName.value = 'Max';
-    }, 2000);
+const userName = ref('Maximilian');
 
-    return {
-      userName,
-    };
-  },
-};
+setTimeout(() => {
+  // userName = 'Max';
+  userName.value = 'Max';
+}, 2000);
+
+// return {
+//   userName,
+// };
+// },
+// };
 </script>
 
 <style>

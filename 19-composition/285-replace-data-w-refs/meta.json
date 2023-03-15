@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/19-composition/285-replace-data-w-refs/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "285. Replaceing data with refs",
+    "video.length": 12,
+    "time.comsuming": 40,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-15T06:08:32Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","data","ref"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880118#content",
+    "description": "Explains how to use setup instead of data."
   }
 
