@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/tree/master/19-composition/289-replace-methods",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "289. Replacing methods with Regular Functions",
+    "video.length": 7,
+    "time.comsuming": 20,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-15T07:42:32Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","methods","replace","setup","function"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880130#content",
+    "description": "Explains how to use setup() instead of methods in the option API."
   }
 
