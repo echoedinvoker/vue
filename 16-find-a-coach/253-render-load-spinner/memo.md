@@ -6,6 +6,8 @@
 
 ## **State: isLoading**
 
+> Create a state to represent the loading state as before, but this time the problem is fetching in the action instead of the component.
+
 ![Alt isLoading](pic/03.jpg)
 
 ## **Template**
