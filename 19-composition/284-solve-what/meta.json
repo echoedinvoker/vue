@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/19-composition/284-solve-what/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "284. Which Problem Does The Composition API Solve?",
+    "video.length": 7,
+    "time.comsuming": 17,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-15T05:26:08Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","concept","why" 
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21527260#content",
+    "description": "Explain what problems the composition API is designed to solve."
   }
 
