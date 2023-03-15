@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/19-composition/287-reative-obj/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "287. Building reactive Objects",
+    "video.length": 11,
+    "time.comsuming": 44,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-15T07:11:08Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","reactive","object" 
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880122#content",
+    "description": "Introducing reactive mehod, another option when value is an object."
   }
 
