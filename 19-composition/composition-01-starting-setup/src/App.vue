@@ -1,11 +1,11 @@
 <template>
   <section class="container">
-    <!-- <h2>{{ user.userName }}</h2> -->
     <h2>{{ fullName }}</h2>
     <h2>{{ user.userAge }}</h2>
     <button @click="addAge">add age</button>
-    <input type="text" placeholder="firstName" @input="setFirstName" />
-    <input type="text" placeholder="lastName" @input="setLastName" />
+    <!-- <input type="text" placeholder="firstName" @input="setFirstName" /> -->
+    <input type="text" placeholder="firstName" v-model="firstName" />
+    <input type="text" placeholder="lastName" v-model="lastName" />
   </section>
 </template>
 
@@ -16,19 +16,18 @@ import { ref, computed } from 'vue';
 export default {
   setup() {
     const user = reactive({
-      // userName: 'Maximilian',
       userAge: 31,
     });
 
     const firstName = ref('');
     const lastName = ref('');
 
-    function setFirstName(event) {
-      firstName.value = event.target.value;
-    }
-    function setLastName(event) {
-      lastName.value = event.target.value;
-    }
+    // function setFirstName(event) {
+    //   firstName.value = event.target.value;
+    // }
+    // function setLastName(event) {
+    //   lastName.value = event.target.value;
+    // }
 
     const fullName = computed(function () {
       return firstName.value + ' ' + lastName.value;
@@ -41,8 +40,10 @@ export default {
     return {
       user,
       addAge,
-      setFirstName,
-      setLastName,
+      // setFirstName,
+      // setLastName,
+      firstName,
+      lastName,
       fullName,
     };
   },
