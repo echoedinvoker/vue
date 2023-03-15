@@ -11,7 +11,7 @@
 
 <script>
 import { reactive } from 'vue';
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 
 export default {
   setup() {
@@ -22,15 +22,19 @@ export default {
     const firstName = ref('');
     const lastName = ref('');
 
-    // function setFirstName(event) {
-    //   firstName.value = event.target.value;
-    // }
-    // function setLastName(event) {
-    //   lastName.value = event.target.value;
-    // }
-
     const fullName = computed(function () {
       return firstName.value + ' ' + lastName.value;
+    });
+
+    // watch: {
+    //   fullName(val){
+    //     console.log(val);
+    //   }
+    // }
+    // watch(fullName, function (oldName, newName) {
+    watch([firstName, lastName], function (oldNames, newNames) {
+      console.log(`Old Name: ${oldNames[0]} ${oldNames[1]}`);
+      console.log(`New Name: ${newNames[0]} ${newNames[1]}`);
     });
 
     function addAge() {
@@ -40,8 +44,6 @@ export default {
     return {
       user,
       addAge,
-      // setFirstName,
-      // setLastName,
       firstName,
       lastName,
       fullName,
