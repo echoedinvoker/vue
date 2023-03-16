@@ -3,9 +3,10 @@
     <h2>{{ fullName }}</h2>
     <h2>{{ user.userAge }}</h2>
     <button @click="addAge">add age</button>
-    <!-- <input type="text" placeholder="firstName" @input="setFirstName" /> -->
     <input type="text" placeholder="firstName" v-model="firstName" />
-    <input type="text" placeholder="lastName" v-model="lastName" />
+    <!-- <input type="text" placeholder="lastName" v-model="lastName" /> -->
+    <input type="text" placeholder="lastName" ref="lastNameInput" />
+    <button @click="setLastName">Input Last Name</button>
   </section>
 </template>
 
@@ -21,21 +22,21 @@ export default {
 
     const firstName = ref('');
     const lastName = ref('');
+    const lastNameInput = ref(null);
 
     const fullName = computed(function () {
       return firstName.value + ' ' + lastName.value;
     });
 
-    // watch: {
-    //   fullName(val){
-    //     console.log(val);
-    //   }
-    // }
-    // watch(fullName, function (oldName, newName) {
     watch([firstName, lastName], function (oldNames, newNames) {
       console.log(`Old Name: ${oldNames[0]} ${oldNames[1]}`);
       console.log(`New Name: ${newNames[0]} ${newNames[1]}`);
     });
+
+    function setLastName() {
+      // lastName.value = this.$refs.lastNameInput.value;
+      lastName.value = lastNameInput.value.value;
+    }
 
     function addAge() {
       user.userAge += 1;
@@ -45,7 +46,9 @@ export default {
       user,
       addAge,
       firstName,
-      lastName,
+      // lastName,
+      lastNameInput,
+      setLastName,
       fullName,
     };
   },
