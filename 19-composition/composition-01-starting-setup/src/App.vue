@@ -1,13 +1,11 @@
 <template>
   <section class="container">
-    <!-- <h2>{{ fullName }}</h2>
-    <h2>{{ user.userAge }}</h2> -->
-    <!-- <the-user :user-name="fullName" :user-age="user.userAge"></the-user> -->
-    <the-user
+    <!-- <the-user
       :first-name="firstName"
       :last-name="lastName"
       :user-age="user.userAge"
-    ></the-user>
+    ></the-user> -->
+    <the-user :first-name="firstName" :last-name="lastName"></the-user>
     <button @click="addAge">add age</button>
     <input type="text" placeholder="firstName" v-model="firstName" />
     <input type="text" placeholder="lastName" ref="lastNameInput" />
@@ -17,7 +15,7 @@
 
 <script>
 import { reactive } from 'vue';
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, provide } from 'vue';
 import TheUser from './component/TheUser.vue';
 
 export default {
@@ -43,16 +41,26 @@ export default {
       console.log(`New Name: ${newNames[0]} ${newNames[1]}`);
     });
 
+    // provide() {
+    //   return {
+    //     age: this.age;
+    //   }
+    // }
+
+    // provide('age', user.userAge);
+    provide('age', user);
+
     function setLastName() {
       lastName.value = lastNameInput.value.value;
     }
 
     function addAge() {
       user.userAge += 1;
+      console.log(user.userAge);
     }
 
     return {
-      user,
+      // user,
       addAge,
       firstName,
       lastName,

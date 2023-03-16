@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/19-composition/296-emit-custom-event/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "296. Emitting Custom Events",
+    "video.length": 3,
+    "time.comsuming": 16,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-16T02:19:08Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","emit","event","context","arg" 
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880214#content",
+    "description": "Explains how to emit a custom event in the composition API."
   }
 
