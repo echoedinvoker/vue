@@ -1,15 +1,15 @@
 <template>
   <section class="container">
-    <!-- <the-user
+    <the-user
       :first-name="firstName"
       :last-name="lastName"
-      :user-age="user.userAge"
-    ></the-user> -->
-    <the-user :first-name="firstName" :last-name="lastName"></the-user>
+      v-if="life"
+    ></the-user>
     <button @click="addAge">add age</button>
     <input type="text" placeholder="firstName" v-model="firstName" />
     <input type="text" placeholder="lastName" ref="lastNameInput" />
     <button @click="setLastName">Input Last Name</button>
+    <button @click="kill">kill</button>
   </section>
 </template>
 
@@ -31,6 +31,7 @@ export default {
     const firstName = ref('');
     const lastName = ref('');
     const lastNameInput = ref(null);
+    const life = ref(true);
 
     const fullName = computed(function () {
       return firstName.value + ' ' + lastName.value;
@@ -41,13 +42,6 @@ export default {
       console.log(`New Name: ${newNames[0]} ${newNames[1]}`);
     });
 
-    // provide() {
-    //   return {
-    //     age: this.age;
-    //   }
-    // }
-
-    // provide('age', user.userAge);
     provide('age', user);
 
     function setLastName() {
@@ -59,14 +53,19 @@ export default {
       console.log(user.userAge);
     }
 
+    function kill() {
+      life.value = false;
+    }
+
     return {
-      // user,
       addAge,
       firstName,
       lastName,
       lastNameInput,
       setLastName,
       fullName,
+      life,
+      kill,
     };
   },
 };

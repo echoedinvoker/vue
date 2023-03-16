@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "vue",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/vue/blob/master/19-composition/297-provide-inject/memo.md",
     "course": "Vue - The Complete Guide (incl. Router & Composition API)",
     "chapter": "19. The Composition API - Replaceing the Options API",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "297. Working with Provide/Inject",
+    "video.length": 4,
+    "time.comsuming": 25,
     "lecturer.name.first": "Maximilian",
     "lecturer.name.last": "Schwarzmuller",
-    "register.time": "",
+    "register.time": "2023-03-16T03:02:51Z",
     "tag": [
-      "vue","composition" 
+      "vue","composition","provide","inject"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880218#content",
+    "description": "Explains how to implement provide/inject in the composition API."
   }
 
