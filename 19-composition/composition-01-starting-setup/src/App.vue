@@ -1,10 +1,15 @@
 <template>
   <section class="container">
-    <h2>{{ fullName }}</h2>
-    <h2>{{ user.userAge }}</h2>
+    <!-- <h2>{{ fullName }}</h2>
+    <h2>{{ user.userAge }}</h2> -->
+    <!-- <the-user :user-name="fullName" :user-age="user.userAge"></the-user> -->
+    <the-user
+      :first-name="firstName"
+      :last-name="lastName"
+      :user-age="user.userAge"
+    ></the-user>
     <button @click="addAge">add age</button>
     <input type="text" placeholder="firstName" v-model="firstName" />
-    <!-- <input type="text" placeholder="lastName" v-model="lastName" /> -->
     <input type="text" placeholder="lastName" ref="lastNameInput" />
     <button @click="setLastName">Input Last Name</button>
   </section>
@@ -13,8 +18,13 @@
 <script>
 import { reactive } from 'vue';
 import { ref, computed, watch } from 'vue';
+import TheUser from './component/TheUser.vue';
 
 export default {
+  components: {
+    TheUser,
+  },
+
   setup() {
     const user = reactive({
       userAge: 31,
@@ -34,7 +44,6 @@ export default {
     });
 
     function setLastName() {
-      // lastName.value = this.$refs.lastNameInput.value;
       lastName.value = lastNameInput.value.value;
     }
 
@@ -46,7 +55,7 @@ export default {
       user,
       addAge,
       firstName,
-      // lastName,
+      lastName,
       lastNameInput,
       setLastName,
       fullName,
